@@ -3,6 +3,7 @@ using UnityEngine.UIElements;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 
 public class MainMenuEvents : MonoBehaviour
@@ -40,7 +41,7 @@ public class MainMenuEvents : MonoBehaviour
         startButton = root.Q<Button>("StartButton");
         settingsButton = root.Q<Button>("SettingsButton");
         creditsButton = root.Q<Button>("CreditsButton");
-        creditsBackButton = root.Q<Button>("CreditsBackButton");
+        creditsBackButton = root.Q<Button>("BackButton");
         quitButton = root.Q<Button>("QuitButton");
 
         creditsPanel = root.Q<VisualElement>("CreditsPanel");
@@ -60,11 +61,7 @@ public class MainMenuEvents : MonoBehaviour
         }
     }
 
-    private void Start()
-    {
-        var settingsBack = document.rootVisualElement.Q("SettingsCloseButton");
-        settingsBack.style.display = DisplayStyle.None;
-    }
+   
 
     private void OnDisable()
     {
