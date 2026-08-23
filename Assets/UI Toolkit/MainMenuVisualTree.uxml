@@ -1,0 +1,20 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=458909cc42ac6404b9fe1210ba12ec53&amp;type=3#MainMenuStyle"/>
+    <ui:VisualElement name="Panel" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UI%20Assets/Placeholders/the-roller-rink-is-still-alive-and-i-still-can-skate-like-v0-li9cgx10r52e1.jpg?fileID=2800000&amp;guid=be0622331593c5e4793ce1ac3f39415c&amp;type=3#the-roller-rink-is-still-alive-and-i-still-can-skate-like-v0-li9cgx10r52e1&quot;);">
+        <ui:VisualElement name="Container" style="flex-grow: 1; background-image: none; display: flex; align-self: center; margin-top: 50px; margin-bottom: 50px;">
+            <ui:Label text="Main Menu" class="header" style="-unity-font-style: bold; -unity-text-outline-color: rgb(0, 0, 0); text-shadow: 5px 5px 0 rgb(255, 255, 255); color: rgb(153, 6, 0); -unity-text-outline-width: 0; -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Fonts/LiberationSans.ttf?fileID=12800000&amp;guid=e3265ab4bf004d28a9537516768c1c75&amp;type=3#LiberationSans&quot;); font-size: 100px;"/>
+            <ui:Button text="Start" parse-escape-sequences="false" name="StartButton" class="button"/>
+            <ui:Button text="Settings" name="SettingsButton" class="button"/>
+            <ui:Button text="Credits" name="CreditsButton" class="button"/>
+            <ui:Button text="Quit" name="QuitButton" class="button"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="CreditsPanel" style="flex-grow: 1; align-self: center; margin-top: 100px; margin-bottom: 100px; visibility: visible; opacity: 1; background-color: rgb(136, 136, 136); width: 650px; display: none; align-content: stretch; justify-content: flex-start; align-items: center; position: absolute;">
+            <ui:Label text="Credits" name="CreditsTitle" class="header" style="color: rgb(255, 255, 255); font-size: 80px;"/>
+            <ui:Label text="Programmers" name="Subheading1" class="header"/>
+            <ui:Label text="Ember&#10;Craig&#10;Kaellum" name="Body" class="bodytext"/>
+            <ui:Label text="Artists" name="Subheading2" class="header"/>
+            <ui:Label text="Devilliers&#10;Craig" name="Body" class="bodytext"/>
+            <ui:Button text="Back" name="BackButton" class="button" style="-unity-text-align: middle-center; align-content: stretch; justify-content: center; margin-top: 250px; margin-bottom: 20px;"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
