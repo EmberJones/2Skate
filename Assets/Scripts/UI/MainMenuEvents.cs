@@ -9,8 +9,8 @@ using UnityEngine.Audio;
 public class MainMenuEvents : MonoBehaviour
 {
     [Header("Scene Names (must match Build Settings exactly)")]
-    [SerializeField] private string gameplaySceneName = "Gameplay";
-    [SerializeField] private string settingsSceneName = "SettingsMenu";
+    [SerializeField] private string gameplaySceneName = "MainLevel";
+    [SerializeField] private string settingsSceneName = "Settings";
 
     private UIDocument document;
 
