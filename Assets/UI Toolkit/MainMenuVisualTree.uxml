@@ -1,0 +1,20 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=458909cc42ac6404b9fe1210ba12ec53&amp;type=3#MainMenuStyle"/>
+    <ui:VisualElement name="Panel" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UI%20Assets/Placeholders/the-roller-rink-is-still-alive-and-i-still-can-skate-like-v0-li9cgx10r52e1.jpg?fileID=2800000&amp;guid=be0622331593c5e4793ce1ac3f39415c&amp;type=3#the-roller-rink-is-still-alive-and-i-still-can-skate-like-v0-li9cgx10r52e1&quot;);">
+        <ui:VisualElement name="Container" style="flex-grow: 1; background-image: none; display: flex; align-self: center; margin-top: 50px; margin-bottom: 50px;">
+            <ui:Label text="2Skate" focusable="false" class="header" style="-unity-font-style: bold; -unity-text-outline-color: rgb(255, 227, 225); text-shadow: 5px 5px 40px rgb(255, 107, 86); color: rgb(255, 10, 0); -unity-text-outline-width: 8px; -unity-font-definition: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=fa0aaae680136ef41b02433a7bd1de88&amp;type=3#NotInter-Regular&quot;); font-size: 150px; -unity-text-align: middle-center; align-content: flex-start; flex-direction: column; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-left: 0; margin-bottom: 0; margin-right: 0; margin-top: 0; background-color: rgba(0, 0, 0, 0); -unity-background-image-tint-color: rgb(255, 255, 255); -unity-material: url(&quot;&quot;); border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0; -unity-text-auto-size: none;"/>
+            <ui:Button text="Start" parse-escape-sequences="false" name="StartButton" class="button" style="width: 430px; height: 120px;"/>
+            <ui:Button text="Settings" name="SettingsButton" class="button" style="width: 430px; height: 120px;"/>
+            <ui:Button text="Credits" name="CreditsButton" class="button" style="width: 430px; height: 120px;"/>
+            <ui:Button text="Quit" name="QuitButton" class="button" style="width: 430px; height: 120px;"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="CreditsPanel" style="flex-grow: 1; align-self: center; margin-top: 100px; margin-bottom: 100px; visibility: visible; opacity: 1; background-color: rgb(136, 136, 136); width: 650px; display: none; align-content: stretch; justify-content: flex-start; align-items: center; position: absolute;">
+            <ui:Label text="Credits" name="CreditsTitle" class="header" style="color: rgb(255, 255, 255); font-size: 150px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;"/>
+            <ui:Label text="Programmers" name="Subheading1" class="header" style="font-size: 50px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;"/>
+            <ui:Label text="Ember&#10;Craig&#10;Kaellum" name="Body" class="bodytext"/>
+            <ui:Label text="Artists" name="Subheading2" class="header" style="font-size: 50px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;"/>
+            <ui:Label text="Devilliers&#10;Craig" name="Body" class="bodytext"/>
+            <ui:Button text="Back" name="BackButton" class="button" style="-unity-text-align: middle-center; align-content: stretch; justify-content: center; margin-top: 200px; margin-bottom: 20px; width: 430px; height: 120px;"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
