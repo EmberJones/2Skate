@@ -20,7 +20,8 @@ public class SkateController : MonoBehaviour
     public float maxAngularSpeed = 4f;
 
     [Header("Grip")]
-    public float lateralGrip = 10f;
+    [SerializeField] private AnimationCurve misalignmentCurve;
+    [SerializeField] private float edgeBiteStrength = 10f;
 
     [Header("Ground Alignment")]
     public LayerMask groundMask;
@@ -47,6 +48,7 @@ public class SkateController : MonoBehaviour
         ApplyTurnTorque();
         ApplyPropulsion();
         ApplySkateFriction();
+        ApplyMisalignmentBrake();
     }
 
     void CheckGround()
@@ -97,15 +99,32 @@ public class SkateController : MonoBehaviour
     {
         Vector3 vel = rb.linearVelocity;
         Vector3 rollDir = transform.forward;
-        Vector3 lateralDir = transform.right;
 
         float rollSpeed = Vector3.Dot(vel, rollDir);
-        float lateralSpeed = Vector3.Dot(vel, lateralDir);
-        float verticalSpeed = Vector3.Dot(vel, Vector3.up);
+        Vector3 rollVel = rollDir * rollSpeed;
+        Vector3 nonRollVel = vel - rollVel; 
 
-        lateralSpeed *= 1f - Mathf.Clamp01(lateralGrip * Time.fixedDeltaTime);
         rollSpeed *= 1f - Mathf.Clamp01(rollFriction * Time.fixedDeltaTime);
 
-        rb.linearVelocity = rollDir * rollSpeed + lateralDir * lateralSpeed + Vector3.up * verticalSpeed;
+        rb.linearVelocity = rollDir * rollSpeed + nonRollVel;
+    }
+    void ApplyMisalignmentBrake()
+    {
+        Vector3 vel = rb.linearVelocity;
+        vel.y = 0f;
+
+        if (vel.sqrMagnitude > 0.01f)
+        {
+            Vector3 heading = transform.forward;
+            Vector3 velDir = vel.normalized;
+
+            float alignment = Vector3.Dot(velDir, heading);
+            float misalignment = 1f - Mathf.Abs(alignment);
+
+            Vector3 lateral = vel - heading * Vector3.Dot(vel, heading);
+
+            float brakeAmount = misalignmentCurve.Evaluate(misalignment);
+            rb.AddForce(-lateral * brakeAmount * edgeBiteStrength, ForceMode.Acceleration);
+        }
     }
 }
