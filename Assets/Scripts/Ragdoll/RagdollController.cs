@@ -1,10 +1,28 @@
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.InputSystem;
 
 public class RagdollController : MonoBehaviour
 {
+    private enum AI_State
+    {
+        Standing,
+        Skating,
+        GetUp,
+        Ragdoll
+    }
+
+    private AI_State currentState = AI_State.Standing;
+
+  
+    //threshold
+    //[SerializeField] private float minimumForce; 
+    //[SerializeField] private float maximumForce;
+
     // Drag the CharacterController here in the Inspector (it's on the character root)
-    public CharacterController characterController;
+    public NavMeshAgent NPCcontroller;
+
+    public CapsuleCollider Capcollider;
 
     // We'll fill this with every bone Rigidbody on the character
     private Rigidbody[] boneRigidbodies;
@@ -15,7 +33,9 @@ public class RagdollController : MonoBehaviour
     private void Awake()
     {
         // Find all Rigidbodies on the character and its children
-        //boneRigidbodies = GetComponentsInChildren<Rigidbody>();
+        boneRigidbodies = GetComponentsInChildren<Rigidbody>();
+
+        Capcollider = GetComponent<CapsuleCollider>();
 
         // Grab the Animator
         animator = GetComponentInChildren<Animator>();
@@ -26,9 +46,23 @@ public class RagdollController : MonoBehaviour
 
     private void Update()
     {
-        if (Keyboard.current.rKey.wasPressedThisFrame)
-        {
-            Activate();
+        switch (currentState) 
+        { 
+            case AI_State.Standing:
+                StandingBehaviour();
+                break;
+
+            case AI_State.Skating:
+                SkatingBehaviour();
+                break;
+
+            case AI_State.Ragdoll:
+                RagdollBehaviour();
+                break;
+
+            case AI_State.GetUp:
+                GetUpBehaviour();
+                break;
         }
     }
 
@@ -37,13 +71,20 @@ public class RagdollController : MonoBehaviour
         SetRagdollActive(true);
     }
 
+    public void Deactivate()
+    {
+        SetRagdollActive(false);
+    }
+
     private void SetRagdollActive(bool isActive)
     {
         // Turn off the animator when ragdolling — animation and physics fight otherwise
         if (animator != null) animator.enabled = !isActive;
 
         // Turn off the CharacterController when ragdolling — its capsule shoves the bones around otherwise
-        if (characterController != null) characterController.enabled = !isActive;
+        if (NPCcontroller != null) NPCcontroller.enabled = !isActive;
+
+        if(Capcollider != null) Capcollider.enabled = !isActive;
 
         // Flip every bone's kinematic state
         foreach (Rigidbody rb in boneRigidbodies)
@@ -51,4 +92,46 @@ public class RagdollController : MonoBehaviour
             rb.isKinematic = !isActive;
         }
     }
+
+    
+
+    private void SkatingBehaviour()
+    {
+
+    }
+
+    private void RagdollBehaviour()
+    {
+
+    }
+
+    private void StandingBehaviour()
+    {
+
+        if (Input.GetKeyDown(KeyCode.F)) 
+        { 
+            Activate();
+        }
+
+    }
+
+    private void TriggerRagdoll(Vector3 force, Vector3 hitpoinnt)
+    {
+
+    }
+
+    private void GetUpBehaviour()
+    {
+
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        
+    }
+
+    
+
+    
+
 }
