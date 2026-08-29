@@ -143,4 +143,12 @@ public class SettingsEvents : MonoBehaviour
     {
         audioSource.Play();
     }
+
+    private void Update()
+    {
+        if (Input.GetKeyUp(KeyCode.Escape))
+        {
+            SceneManager.UnloadSceneAsync(gameObject.scene);
+        }
+    }
 }

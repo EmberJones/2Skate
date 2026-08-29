@@ -1,6 +1,6 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI%20Toolkit/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=458909cc42ac6404b9fe1210ba12ec53&amp;type=3#MainMenuStyle"/>
-    <ui:VisualElement name="PauseContainer" style="flex-grow: 1; align-items: center; flex-wrap: wrap;">
+    <ui:VisualElement name="PauseContainer" style="flex-grow: 1; align-items: center; flex-wrap: wrap; display: none;">
         <ui:Label text="Paused" class="header" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; top: 25px;"/>
         <ui:VisualElement name="Actions" style="flex-grow: 1; padding-bottom: 0; margin-top: 0; -unity-text-align: upper-center; background-color: rgb(136, 26, 26); border-top-left-radius: 30px; border-top-right-radius: 30px; border-bottom-right-radius: 30px; border-bottom-left-radius: 30px; margin-bottom: 0; align-items: auto; justify-content: flex-start; width: 600px; height: 470px; flex-direction: column; position: absolute; top: 230px; align-self: center;">
             <ui:Button text="Resume" name="ResumeButton" class="button"/>

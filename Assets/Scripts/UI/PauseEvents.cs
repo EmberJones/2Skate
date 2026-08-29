@@ -26,6 +26,7 @@ public class PauseEvents : MonoBehaviour
     private VisualElement pauseContainer;
 
     private List<Button> pauseButtons = new List<Button>();
+    public bool IsPaused { get; private set; }
 
     private void Start()
     {
@@ -35,7 +36,7 @@ public class PauseEvents : MonoBehaviour
         var root = document.rootVisualElement;
 
         pauseContainer = root.Q<VisualElement>("PauseContainer");
-        //pauseContainer.style.display = DisplayStyle.None;
+        pauseContainer.style.display = DisplayStyle.None;
     }
 
     private void OnEnable()
@@ -77,7 +78,7 @@ public class PauseEvents : MonoBehaviour
     private void OnResumeClick(ClickEvent evt)
     {
         //Unpause Game
-        pauseContainer.style.display = DisplayStyle.None;
+        Resume();
     }
 
     private void OnSettingsClick(ClickEvent evt)
@@ -95,5 +96,39 @@ public class PauseEvents : MonoBehaviour
     private void OnAllButtonsClick(ClickEvent evt)
     {
         audioSource.Play();
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyUp(KeyCode.Escape)) 
+        {
+            TogglePause();
+        }
+    }
+
+    private void TogglePause()
+    {
+        if (IsPaused)
+        {
+            Resume();
+        }
+        else
+        {
+            Pause();
+        }
+    }
+
+    private void Pause()
+    {
+        pauseContainer.style.display = DisplayStyle.Flex;
+        Time.timeScale = 0;
+        IsPaused = true;
+    }
+
+    private void Resume()
+    {
+        pauseContainer.style.display = DisplayStyle.None;
+        Time.timeScale = 1f;
+        IsPaused = false;
     }
 }
