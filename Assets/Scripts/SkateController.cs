@@ -30,9 +30,11 @@ public class SkateController : MonoBehaviour
     public float groundAlignDamping = 4f;
     public Vector3 centerOfMassOffset = new Vector3(0f, -0.4f, 0f);
 
+
+
     Rigidbody rb;
     Vector3 groundNormal = Vector3.up;
-    bool grounded;
+    public bool grounded;
 
     void Awake()
     {

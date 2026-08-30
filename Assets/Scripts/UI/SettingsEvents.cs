@@ -137,6 +137,7 @@ public class SettingsEvents : MonoBehaviour
         float dB = linearValue <= 0.0001f ? -80f : Mathf.Log10(linearValue) * 20f;
         audioMixer.SetFloat("MasterVolume", dB);
         PlayerPrefs.SetFloat("MasterVolume", linearValue);
+        PlayerPrefs.Save();
     }
 
     private void OnAllButtonsClick(ClickEvent evt)
