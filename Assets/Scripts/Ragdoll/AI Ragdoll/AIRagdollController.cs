@@ -39,6 +39,10 @@ public class AIRagdollController : MonoBehaviour
     [Tooltip("Vertical offset from the raycast hit point to the root's resting position (usually 0).")]
     public float groundOffset = 0f;
 
+    [Header("Audio")]
+    [SerializeField] private AudioClip thudSound;
+
+
     Coroutine getUpRoutine;
 
     public bool IsRagdolled { get; private set; }
@@ -74,6 +78,11 @@ public class AIRagdollController : MonoBehaviour
     void ActivateRagdoll(Collision collision, Rigidbody hitBody, float forceMagnitude)
     {
         IsRagdolled = true;
+
+        if (thudSound != null && AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlaySFX(thudSound);
+        }
 
         if (getUpRoutine != null)
         {

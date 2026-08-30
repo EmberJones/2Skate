@@ -29,6 +29,8 @@ public class Ragdolllimbhitreceiver : MonoBehaviour
         AIRagdollController otherController = otherBody.GetComponentInParent<AIRagdollController>();
         if (otherController != null && otherController == controller) return;
 
+     
+
         controller.ReceiveHit(rb, collision);
     }
 }

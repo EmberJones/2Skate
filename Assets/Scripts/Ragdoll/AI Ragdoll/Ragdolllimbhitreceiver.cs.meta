@@ -1,2 +1,13 @@
 fileFormatVersion: 2
 guid: ddf1c9d085cce214985aa331b85d5058
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - controller: {instanceID: 0}
+  - thudSound: {fileID: 8300000, guid: 133331f0d088dcf4e816a833f037bd0e, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
