@@ -6,9 +6,12 @@ public class GameMusic : MonoBehaviour
 
     private void Start()
     {
-        if (AudioManager.Instance != null)
+        if (AudioManager.Instance == null)
         {
-            AudioManager.Instance.PlayMusic(music);
+            Debug.LogError("SceneMusic: No AudioManager exists.");
+            return;
         }
+
+        AudioManager.Instance.PlayMusic(music);
     }
 }
