@@ -26,12 +26,12 @@ public class DirectionArrow : MonoBehaviour
             if (carrier.CarriedFood.targetTable != null)
             {
                 target = carrier.CarriedFood.targetTable.transform;
-                Debug.Log($"[Arrow] Carrying food -> table target: {target.name} at {target.position}");
+                //Debug.Log($"[Arrow] Carrying food -> table target: {target.name} at {target.position}");
             }
             else
             {
                 target = barLocation;
-                Debug.LogWarning($"[Arrow] Carrying food '{carrier.CarriedFood.name}' but targetTable is NULL -> falling back to bar");
+                //Debug.LogWarning($"[Arrow] Carrying food '{carrier.CarriedFood.name}' but targetTable is NULL -> falling back to bar");
             }
         }
         else
@@ -39,30 +39,30 @@ public class DirectionArrow : MonoBehaviour
             FoodItem nearest = null;
             float nearestDist = float.MaxValue;
 
-            Debug.Log($"[Arrow] Available food count: {FoodItem.Available.Count}");
+            //Debug.Log($"[Arrow] Available food count: {FoodItem.Available.Count}");
 
             foreach (var food in FoodItem.Available)
             {
                 if (food == null)
                 {
-                    Debug.LogWarning("[Arrow] Null entry found in FoodItem.Available list!");
+                    //Debug.LogWarning("[Arrow] Null entry found in FoodItem.Available list!");
                     continue;
                 }
 
                 if (food.isDelivered)
                 {
-                    Debug.Log($"[Arrow] Skipping delivered food: {food.name}");
+                    //Debug.Log($"[Arrow] Skipping delivered food: {food.name}");
                     continue;
                 }
 
                 float dist = (food.transform.position - arrow.position).sqrMagnitude;
-                Debug.Log($"[Arrow] Candidate: {food.name} (delivered={food.isDelivered}) at {food.transform.position}, distSqr={dist}");
+                //Debug.Log($"[Arrow] Candidate: {food.name} (delivered={food.isDelivered}) at {food.transform.position}, distSqr={dist}");
 
                 if (dist < nearestDist) { nearestDist = dist; nearest = food; }
             }
 
             target = nearest != null ? nearest.transform : barLocation;
-            Debug.Log($"[Arrow] Chosen target: {(nearest != null ? nearest.name : "barLocation")} at {target.position}");
+            //Debug.Log($"[Arrow] Chosen target: {(nearest != null ? nearest.name : "barLocation")} at {target.position}");
         }
 
         if (target == null) return;

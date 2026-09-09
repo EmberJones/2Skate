@@ -40,5 +40,8 @@ public class PlayerCarrier : MonoBehaviour
         CarriedFood.isDelivered = true;
         CarriedFood.gameObject.SetActive(true);
         CarriedFood = null;
+
+        if (ObjectiveManager.Instance != null)
+            ObjectiveManager.Instance.ReportProgress(ObjectiveType.DeliverFood);
     }
 }
