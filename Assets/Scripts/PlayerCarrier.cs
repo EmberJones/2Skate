@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class PlayerCarrier : MonoBehaviour
 {
+    public ICarryable CarriedItem { get; private set; }
+    public bool IsCarrying => CarriedItem != null;
+
     public FoodItem CarriedFood { get; private set; }
     public Transform holdPoint;
     public MeshFilter carryMeshFilter;
