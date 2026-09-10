@@ -33,15 +33,15 @@ public class ObjectiveTarget : MonoBehaviour
         if (ObjectiveManager.Instance != null)
         {
             ObjectiveManager.Instance.ReportProgress(objectiveType, progressAmount);
+
             
-            //Debug.Log("Stop Particles");
-            //indicatorParticles.loop = false;
+            //indicatorParticles.Stop();
         }
 
         if (indicatorParticles != null) 
         {
             //Debug.Log("Stop Particles");
-            indicatorParticles.Stop(); 
+            
         }
 
         if (deactivateOnComplete) indicatorParticles.gameObject.SetActive(false);

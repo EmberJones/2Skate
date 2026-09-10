@@ -14,7 +14,7 @@ public class Table : MonoBehaviour
         if (carrier.CarriedFood.targetTable == this)
         {
             carrier.DeliverFood(this);
-            indicatorParticles.Stop();
+            //indicatorParticles.Stop();
         }
             
     }

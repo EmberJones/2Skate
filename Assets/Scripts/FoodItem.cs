@@ -7,6 +7,7 @@ public class FoodItem : MonoBehaviour
     public bool isDelivered = false;
     public static List<FoodItem> Available = new List<FoodItem>();
     public ParticleSystem indicatorPartilces;
+    public Outline outline;
 
     void OnEnable()
     {
@@ -18,6 +19,7 @@ public class FoodItem : MonoBehaviour
         if (isDelivered)
         {
             indicatorPartilces.Stop();
+            outline.enabled = false;
         }
     }
 
