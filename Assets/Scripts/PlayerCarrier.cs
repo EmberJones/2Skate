@@ -2,61 +2,43 @@ using UnityEngine;
 
 public class PlayerCarrier : MonoBehaviour
 {
-    public ICarryable CarriedItem { get; private set; }
-    public bool IsCarrying => CarriedItem != null;
-
-    //public FoodItem CarriedFood { get; private set; }
+    public FoodItem CarriedFood { get; private set; }
     public Transform holdPoint;
     public MeshFilter carryMeshFilter;
     public MeshRenderer carryMeshRenderer;
 
     void OnTriggerEnter(Collider other)
     {
-        if (IsCarrying) return;
+        if (CarriedFood != null) return;
 
-        ICarryable carryable = other.GetComponent<ICarryable>();
-        if (carryable != null && carryable.CanBePickedUp) PickUp(carryable);
+        FoodItem food = other.GetComponent<FoodItem>();
+        if (food != null &&!food.isDelivered) PickUp(food);
     }
 
-    void PickUp(ICarryable carryable)
+    void PickUp(FoodItem food)
     {
-        CarriedItem = carryable;
+        CarriedFood = food;
+        food.gameObject.SetActive(false);
 
-        MeshFilter itemMesh = carryable.MeshSource.GetComponentInChildren<MeshFilter>();
-        MeshRenderer itemRenderer = carryable.MeshSource.GetComponentInChildren<MeshRenderer>();
+        MeshFilter foodMesh = food.GetComponentInChildren<MeshFilter>();
+        MeshRenderer foodRenderer = food.GetComponentInChildren<MeshRenderer>();
 
-        carryable.OnPickedUp();
-
-        carryMeshFilter.sharedMesh = itemMesh.sharedMesh;
-        carryMeshRenderer.sharedMaterials = itemRenderer.sharedMaterials;
+        carryMeshFilter.sharedMesh = foodMesh.sharedMesh;
+        carryMeshRenderer.sharedMaterials = foodRenderer.sharedMaterials;
         carryMeshRenderer.enabled = true;
     }
 
     public void DeliverFood(Table table)
     {
-        FoodItem food = CarriedItem as FoodItem;
-        if (food == null) return; // not currently carrying food
 
         carryMeshRenderer.enabled = false;
-        food.transform.SetParent(table.foodPlacementPoint);
-        food.transform.localPosition = Vector3.zero;
-        food.gameObject.layer = LayerMask.NameToLayer("Default");
-        Rigidbody foodRb = food.GetComponent<Rigidbody>();
+        CarriedFood.transform.SetParent(table.foodPlacementPoint);
+        CarriedFood.transform.localPosition = Vector3.zero;
+        CarriedFood.gameObject.layer = LayerMask.NameToLayer("Default");
+        Rigidbody foodRb = CarriedFood.GetComponent<Rigidbody>();
         if (foodRb != null) foodRb.isKinematic = true;
-        food.isDelivered = true;
-        food.gameObject.SetActive(true);
-        CarriedItem = null;
-
-        if (ObjectiveManager.Instance != null)
-            ObjectiveManager.Instance.ReportProgress(ObjectiveType.DeliverFood);
-    }
-
-    public void DropCarriedItem()
-    {
-        if (CarriedItem == null) return;
-
-        carryMeshRenderer.enabled = false;
-        CarriedItem.OnDropped();
-        CarriedItem = null;
+        CarriedFood.isDelivered = true;
+        CarriedFood.gameObject.SetActive(true);
+        CarriedFood = null;
     }
 }
