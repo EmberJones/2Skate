@@ -17,9 +17,10 @@ public class DirectionArrow : MonoBehaviour
 
         return target.position;
     }
-
+    /*
     void Update()
     {
+        
         //OPTIMISE THIS AFTER JAM
         if (carrier.CarriedFood != null)
         {
@@ -63,6 +64,8 @@ public class DirectionArrow : MonoBehaviour
 
             target = nearest != null ? nearest.transform : barLocation;
             //Debug.Log($"[Arrow] Chosen target: {(nearest != null ? nearest.name : "barLocation")} at {target.position}");
+
+        
         }
 
         if (target == null) return;
@@ -77,5 +80,5 @@ public class DirectionArrow : MonoBehaviour
 
         float yaw = Mathf.Atan2(dir.x, dir.z) * Mathf.Rad2Deg + 90f;
         arrow.rotation = Quaternion.Euler(0f, yaw, 0f);
-    }
+    }*/
 }

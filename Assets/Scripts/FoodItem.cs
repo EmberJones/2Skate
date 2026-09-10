@@ -1,25 +1,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FoodItem : MonoBehaviour
+public class FoodItem : CarryableItem
 {
     public Table targetTable;
     public bool isDelivered = false;
     public static List<FoodItem> Available = new List<FoodItem>();
+
     public ParticleSystem indicatorPartilces;
-    public Outline outline;
+
+    public override bool CanBePickedUp => !isDelivered;
 
     void OnEnable()
     {
-        if (!isDelivered) 
-        { 
-            Available.Add(this); 
-           
-        }
-        if (isDelivered)
+        if (!isDelivered)
         {
-            indicatorPartilces.Stop();
-            outline.enabled = false;
+            Available.Add(this);
+        }
+        else
+        {
+            if (indicatorPartilces != null) indicatorPartilces.Stop();
+            if (outline != null) outline.enabled = false;
         }
     }
 
