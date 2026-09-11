@@ -10,7 +10,7 @@ public class BathroomCleaningArea : MonoBehaviour
 
     public string playerTag = "Player";
 
-    bool _cleaned;
+    bool _cleaned = false;
     float _timer;
     PlayerCarrier _carrierInArea;
 
@@ -24,11 +24,19 @@ public class BathroomCleaningArea : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (_cleaned || !other.CompareTag(playerTag)) return;
+       
+
+        if (_cleaned || !other.CompareTag(playerTag)) 
+        {
+            
+            return; 
+        }
 
         PlayerCarrier carrier = other.GetComponent<PlayerCarrier>();
+
         if (carrier != null) 
-        { 
+        {
+            Debug.Log("Carrier found");
             _carrierInArea = carrier;
             indicatorParticles.Play();
         }
@@ -48,6 +56,7 @@ public class BathroomCleaningArea : MonoBehaviour
 
         if (!(_carrierInArea.CarriedItem is MopItem))
         {
+            Debug.Log("Carrier found and used");
             _timer = 0f; // wandered in without the mop, or dropped it = no progress
             return;
         }
