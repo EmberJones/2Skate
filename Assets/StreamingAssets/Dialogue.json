@@ -1,0 +1,28 @@
+{
+  "dialogues": [
+    {
+      "id": "1",
+      "name": "Boss",
+	  "icon": "Phone_icon",
+      "sentences": [
+        "**Phone Ringing**",
+        "Welcome to your first day working for 2Skate",
+        "Some thing came up... So you will be the only person working today",
+        "I left a list of things you need to do before the night ends",
+        "I trust you will not let me down or else...",
+        "YOU ARE FIRED!!",
+        "**Call Ended**"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Hints Beginer Lv",
+      "icon": "Hint_icon",
+      "sentences": [
+        "The Controls for Movemnt are WASD.",
+        " To ADD",
+        "TO ADD"
+      ]
+    }
+  ]
+}
