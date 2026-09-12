@@ -43,28 +43,28 @@ public class Lights : MonoBehaviour
     {
         switch (num)
         {
-            case 0f:
-                theeColour = Color.red; 
-            break;
-
-            case 1f:
-                theeColour = new Color(1f, 0.5f, 0f); //Orange
+            case 0:
+                ColorUtility.TryParseHtmlString("#C30524", out theeColour); // red
                 break;
 
-            case 2f:
-                theeColour = Color.yellow;
+            case 1:
+                ColorUtility.TryParseHtmlString("#FF7400", out theeColour); // orange
                 break;
 
-            case 3f:
-                theeColour = Color.green;
+            case 2:
+                ColorUtility.TryParseHtmlString("#E9E500", out theeColour); // yellow
                 break;
 
-            case 4f:
-                theeColour = Color.blue;
+            case 3:
+                ColorUtility.TryParseHtmlString("#00C830", out theeColour); // green
                 break;
 
-            case 5f:
-                theeColour = new Color(0.5f, 0f, 0.5f);// Purple
+            case 4:
+                ColorUtility.TryParseHtmlString("#0078FF", out theeColour); // blue
+                break;
+
+            case 5:
+                ColorUtility.TryParseHtmlString("#5600FF", out theeColour); // purple
                 break;
 
 
