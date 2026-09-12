@@ -65623,6 +65623,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6028753843133013012, guid: 2e3b8f4b4c22f26439580a54a0a6e61a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 85ab32d7c54bf6041824d3026099130f, type: 3}
     - target: {fileID: 6901867582257827366, guid: 2e3b8f4b4c22f26439580a54a0a6e61a, type: 3}
       propertyPath: m_Name
       value: DialogueBox
