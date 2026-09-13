@@ -25,6 +25,7 @@ public class ObjectiveManager : MonoBehaviour
     public event Action OnObjectivesInitialized;
     public event Action OnAllObjectivesCompleted;
 
+    
 
     void Awake()
     {
@@ -56,6 +57,8 @@ public class ObjectiveManager : MonoBehaviour
             if (AllObjectivesComplete())
                 OnAllObjectivesCompleted?.Invoke();
         }
+
+        Debug.Log(new System.Diagnostics.StackTrace());
     }
 
     public bool AllObjectivesComplete()

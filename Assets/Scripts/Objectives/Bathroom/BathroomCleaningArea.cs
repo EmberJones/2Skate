@@ -24,22 +24,18 @@ public class BathroomCleaningArea : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-       
+        if (_cleaned) return;
 
-        if (_cleaned || !other.CompareTag(playerTag)) 
+        PlayerCarrier carrier = other.GetComponentInParent<PlayerCarrier>();
+
+        if (carrier != null)
         {
-            
-            return; 
-        }
-
-        PlayerCarrier carrier = other.GetComponent<PlayerCarrier>();
-
-        if (carrier != null) 
-        {
-            Debug.Log("Carrier found");
             _carrierInArea = carrier;
-            indicatorParticles.Play();
+
+            if (carrier.CarriedItem is MopItem && indicatorParticles != null)
+                indicatorParticles.Play();
         }
+
     }
 
     void OnTriggerExit(Collider other)

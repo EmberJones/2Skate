@@ -44,7 +44,7 @@ public class ObjectiveTarget : MonoBehaviour
             
         }
 
-        if (deactivateOnComplete) indicatorParticles.gameObject.SetActive(false);
+        //if (deactivateOnComplete) indicatorParticles.gameObject.SetActive(false);
 
         //indicatorParticles.Stop();
     }

@@ -30,6 +30,9 @@ public class PlayerCarrier : MonoBehaviour
         carryMeshFilter.sharedMesh = itemMesh.sharedMesh;
         carryMeshRenderer.sharedMaterials = itemRenderer.sharedMaterials;
         carryMeshRenderer.enabled = true;
+
+        if (carryable is FoodItem && TableManager.Instance != null)
+            TableManager.Instance.ShowActiveTables(true);
     }
 
     public void DeliverFood(Table table)
@@ -47,6 +50,9 @@ public class PlayerCarrier : MonoBehaviour
         food.gameObject.SetActive(true);
         CarriedItem = null;
 
+        if (TableManager.Instance != null)
+            TableManager.Instance.ShowActiveTables(false);
+
         if (ObjectiveManager.Instance != null)
             ObjectiveManager.Instance.ReportProgress(ObjectiveType.DeliverFood);
     }
@@ -55,8 +61,13 @@ public class PlayerCarrier : MonoBehaviour
     {
         if (CarriedItem == null) return;
 
+        bool wasFood = CarriedItem is FoodItem;
+
         carryMeshRenderer.enabled = false;
         CarriedItem.OnDropped();
         CarriedItem = null;
+
+        if (wasFood && TableManager.Instance != null)
+            TableManager.Instance.ShowActiveTables(false);
     }
 }

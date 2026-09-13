@@ -7,9 +7,10 @@ public class FoodItem : CarryableItem
     public bool isDelivered = false;
     public static List<FoodItem> Available = new List<FoodItem>();
 
-    public ParticleSystem indicatorPartilces;
+    //public ParticleSystem indicatorPartilces;
 
     public override bool CanBePickedUp => !isDelivered;
+
 
     void OnEnable()
     {
@@ -19,7 +20,7 @@ public class FoodItem : CarryableItem
         }
         else
         {
-            if (indicatorPartilces != null) indicatorPartilces.Stop();
+            //if (indicatorPartilces != null) indicatorPartilces.Stop();
             if (outline != null) outline.enabled = false;
         }
     }
@@ -29,9 +30,5 @@ public class FoodItem : CarryableItem
         Available.Remove(this);
     }
 
-    void Start()
-    {
-        if (targetTable == null && TableManager.Instance != null)
-            targetTable = TableManager.Instance.GetRandomTable();
-    }
+  
 }

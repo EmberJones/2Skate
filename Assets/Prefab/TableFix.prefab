@@ -3819,7 +3819,7 @@ ParticleSystem:
       properties: 0
       emitProbability: 1
   LightsModule:
-    enabled: 1
+    enabled: 0
     ratio: 1
     light: {fileID: 8936822787875417278, guid: ad87d8dafa288074e8784a52ee612a14, type: 3}
     randomDistribution: 0
@@ -4877,7 +4877,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 0f3289a87e944574ba7c2b8b2376b1c1, type: 3}
       propertyPath: m_LocalScale.x
-      value: 320
+      value: 319.99997
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0f3289a87e944574ba7c2b8b2376b1c1, type: 3}
       propertyPath: m_LocalScale.y
@@ -4885,31 +4885,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0f3289a87e944574ba7c2b8b2376b1c1, type: 3}
       propertyPath: m_LocalScale.z
-      value: 320
+      value: 319.99997
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0f3289a87e944574ba7c2b8b2376b1c1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 33.32
+      value: -181.72
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0f3289a87e944574ba7c2b8b2376b1c1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.66
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0f3289a87e944574ba7c2b8b2376b1c1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.03
+      value: -48.440002
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0f3289a87e944574ba7c2b8b2376b1c1, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.38268343
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0f3289a87e944574ba7c2b8b2376b1c1, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.00000003774895
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0f3289a87e944574ba7c2b8b2376b1c1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.92387956
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0f3289a87e944574ba7c2b8b2376b1c1, type: 3}
       propertyPath: m_LocalRotation.z
@@ -4921,7 +4921,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0f3289a87e944574ba7c2b8b2376b1c1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 135
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0f3289a87e944574ba7c2b8b2376b1c1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -4957,6 +4957,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0f3289a87e944574ba7c2b8b2376b1c1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 58864890583472040}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0f3289a87e944574ba7c2b8b2376b1c1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2868430428867988190}
   m_SourcePrefab: {fileID: 100100000, guid: 0f3289a87e944574ba7c2b8b2376b1c1, type: 3}
 --- !u!4 &4904365949192318270 stripped
 Transform:
@@ -5042,3 +5045,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Table
   indicatorParticles: {fileID: 7296625853831799739}
   foodPlacementPoint: {fileID: 7207987890437797108}
+  outline: {fileID: 2868430428867988190}
+--- !u!114 &2868430428867988190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5711723711792510852}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Outline
+  outlineMode: 3
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 3
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
