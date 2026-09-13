@@ -10,6 +10,15 @@ public class PlayerCarrier : MonoBehaviour
     public MeshFilter carryMeshFilter;
     public MeshRenderer carryMeshRenderer;
 
+    public KeyCode dropKey = KeyCode.G;
+    public Transform dropPoint;
+
+    void Update()
+    {
+        if (IsCarrying && Input.GetKeyDown(dropKey))
+            DropCarriedItem();
+    }
+
     void OnTriggerEnter(Collider other)
     {
         if (IsCarrying) return;
@@ -64,6 +73,12 @@ public class PlayerCarrier : MonoBehaviour
         bool wasFood = CarriedItem is FoodItem;
 
         carryMeshRenderer.enabled = false;
+
+        Transform itemTransform = CarriedItem.GameObject.transform;
+        itemTransform.SetParent(null);
+        itemTransform.position = dropPoint != null ? dropPoint.position : transform.position + transform.forward;
+        itemTransform.rotation = Quaternion.identity;
+
         CarriedItem.OnDropped();
         CarriedItem = null;
 

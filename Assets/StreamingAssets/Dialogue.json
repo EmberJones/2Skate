@@ -6,11 +6,15 @@
 	  "icon": "Phone_icon",
       "sentences": [
         "**Phone Ringing**",
-        "Welcome to your first day working for 2Skate",
+        "Welcome to your first day working for 2Skate.",
         "Some thing came up... So you will be the only person working today",
-        "I left a list of things you need to do before the night ends",
+        "I know you're new but let me run you down on the basics.",
+        "Skating is easy WASD for your left foot and Arrow Keys for your Right.",
+        "If you want to swap tasks press Q to drop the item you're holding.",
+        "Deliver food, Clean bathrooms just follow the highlighted tasks.",
+        "I left a list of things you need to do before the night ends.",
         "I trust you will not let me down or else...",
-        "YOU ARE FIRED!!",
+        "YOU'RE' FIRED!!",
         "**Call Ended**"
       ]
     },

@@ -16,5 +16,6 @@ public class MopItem : CarryableItem
         // Reappear back at its rack so it's always findable again.
         transform.SetPositionAndRotation(_spawnPosition, _spawnRotation);
         gameObject.SetActive(true);
+        outline.enabled = true;
     }
 }

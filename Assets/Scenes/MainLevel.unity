@@ -12261,7 +12261,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Outline
   outlineMode: 3
-  outlineColor: {r: 1, g: 0, b: 0, a: 1}
+  outlineColor: {r: 0.9169811, g: 0.9045874, b: 0.24741183, a: 1}
   outlineWidth: 3
   precomputeOutline: 0
   bakeKeys: []
@@ -34412,7 +34412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Outline
   outlineMode: 3
-  outlineColor: {r: 1, g: 0, b: 0, a: 1}
+  outlineColor: {r: 0.9169811, g: 0.9045874, b: 0.24741183, a: 1}
   outlineWidth: 3
   precomputeOutline: 0
   bakeKeys: []
@@ -60497,7 +60497,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Outline
   outlineMode: 3
-  outlineColor: {r: 1, g: 0, b: 0, a: 1}
+  outlineColor: {r: 0.9169811, g: 0.9045874, b: 0.24741183, a: 1}
   outlineWidth: 3
   precomputeOutline: 0
   bakeKeys: []
@@ -64888,6 +64888,15 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 184680511659786950, guid: fb6591e7631983c4fb815918ee92eafa, type: 3}
+      propertyPath: m_text
+      value: Your key objective items are highlighted and us your objective list
+        in the top left to track your progress. Good luck!
+      objectReference: {fileID: 0}
+    - target: {fileID: 184680511659786950, guid: fb6591e7631983c4fb815918ee92eafa, type: 3}
+      propertyPath: m_fontSize
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 259697124365971979, guid: fb6591e7631983c4fb815918ee92eafa, type: 3}
       propertyPath: m_Name
       value: Controls Prefab
@@ -72297,7 +72306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Outline
   outlineMode: 3
-  outlineColor: {r: 1, g: 0, b: 0, a: 1}
+  outlineColor: {r: 0.9169811, g: 0.9045874, b: 0.24741183, a: 1}
   outlineWidth: 3
   precomputeOutline: 0
   bakeKeys: []
@@ -74626,7 +74635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Outline
   outlineMode: 3
-  outlineColor: {r: 1, g: 0, b: 0, a: 1}
+  outlineColor: {r: 0.9169811, g: 0.9045874, b: 0.24741183, a: 1}
   outlineWidth: 3
   precomputeOutline: 0
   bakeKeys: []

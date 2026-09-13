@@ -16,7 +16,8 @@ public abstract class CarryableItem : MonoBehaviour, ICarryable
 
     public virtual void OnDropped()
     {
-        // Default: nothing happens on drop. Override for items
-        // that need to reset/reappear (e.g. MopItem).
+
+        gameObject.SetActive(true);
+        //outline.enabled = true;
     }
 }
