@@ -31,7 +31,7 @@ public class LevelIntroSequencer : MonoBehaviour
     //public GameObject dialogueUI;
 
     [Header("Dialogue")]
-    public SceneDialogueTrigger sceneDialogueTrigger; // drag in here
+    public SceneDialogueTrigger sceneDialogueTrigger;
 
     private bool hasPlayed = false;
 
@@ -42,6 +42,8 @@ public class LevelIntroSequencer : MonoBehaviour
 
     [Header("UI")]
     public GameObject hud;
+
+    public Timer timer;
 
     void Start()
     {
@@ -110,6 +112,7 @@ public class LevelIntroSequencer : MonoBehaviour
 
         //Cursor.lockState = CursorLockMode.Locked;
         //Cursor.visible = false;
+        timer.StartTimer();
 
         Debug.Log("Intro done, player has control");
 

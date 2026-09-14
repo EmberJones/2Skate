@@ -8,6 +8,8 @@ public class DialogueManager : MonoBehaviour
     public DialogueUI ui;
     public GameObject dialogueUI;
     public Action onDialogueEnd;
+
+    public GameObject timerUI;
     //public GameObject newUI;
 
     void Awake()
@@ -61,6 +63,8 @@ public class DialogueManager : MonoBehaviour
         Action snapshot = onDialogueEnd;
         onDialogueEnd = null;
         snapshot?.Invoke();
+
+        timerUI.SetActive(true);
 
         //newUI.SetActive(true);
 

@@ -3,10 +3,10 @@
     {
       "id": "1",
       "name": "Boss",
-	  "icon": "Phone_icon",
+	  "icon": "Telephone_icon",
       "sentences": [
         "**Phone Ringing**",
-        "Welcome to your first day working for 2Skate.",
+        "Good Evening and welcome to your first day working with us at 2Skate.",
         "Some thing came up... So you will be the only person working today",
         "I know you're new but let me run you down on the basics.",
         "Skating is easy WASD for your left foot and Arrow Keys for your Right.",
