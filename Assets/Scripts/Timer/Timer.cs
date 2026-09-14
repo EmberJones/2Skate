@@ -9,20 +9,18 @@ public class Timer : MonoBehaviour
     public void StartTimer()
     {
         
-            StartCoroutine(Countdown());
-        
+       StartCoroutine(Countdown());
 
     }
 
     IEnumerator Countdown()
     {
-
-    while (time >= 0)
-    {
-        Debug.Log("In Countdown");
-        ui.UpdateTimer(time);
-        time--;
-        yield return new WaitForSeconds(1f);
-    }
+        while (time >= 0)
+        {
+            Debug.Log("In Countdown");
+            ui.UpdateTimer(time);
+            time--;
+            yield return new WaitForSeconds(1f);
+        }
     }
 }

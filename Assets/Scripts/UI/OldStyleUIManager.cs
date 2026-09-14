@@ -10,8 +10,7 @@ public class OldStyleUIManager : MonoBehaviour
     {
         if (timer <= 0)
         {
-            //Code to add the end of the game
-            Debug.Log("GameEnd");
+            GameEvents.RaiseGameOver();
         }
         else 
         {

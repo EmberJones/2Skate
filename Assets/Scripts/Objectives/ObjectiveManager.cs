@@ -55,7 +55,11 @@ public class ObjectiveManager : MonoBehaviour
             OnObjectiveCompleted?.Invoke(objective);
 
             if (AllObjectivesComplete())
+            {
                 OnAllObjectivesCompleted?.Invoke();
+                GameEvents.RaiseGameWin();
+            }
+                
         }
 
         Debug.Log(new System.Diagnostics.StackTrace());

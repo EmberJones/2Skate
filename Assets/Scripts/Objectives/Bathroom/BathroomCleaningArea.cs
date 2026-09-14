@@ -40,10 +40,14 @@ public class BathroomCleaningArea : MonoBehaviour
 
     void OnTriggerExit(Collider other)
     {
-        if (!other.CompareTag(playerTag)) return;
+        PlayerCarrier carrier = other.GetComponentInParent<PlayerCarrier>();
+
+        if (carrier == null || carrier != _carrierInArea) return;
+
+        indicatorParticles.Stop();
 
         _carrierInArea = null;
-        _timer = 0f; // leaving resets progress, must clean in one continuous visit
+        _timer = 0f;
     }
 
     void Update()
