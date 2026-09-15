@@ -221,6 +221,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5341981662168262694, guid: 29f08149fff61b548a5b14a114404382, type: 3}
       insertIndex: -1
       addedObject: {fileID: 429980109}
+    - targetCorrespondingSourceObject: {fileID: 132633571499265345, guid: 29f08149fff61b548a5b14a114404382, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1445426965}
   m_SourcePrefab: {fileID: 100100000, guid: 29f08149fff61b548a5b14a114404382, type: 3}
 --- !u!4 &69633 stripped
 Transform:
@@ -390,6 +393,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2243888399829800479, guid: 4b440a55d90ad7443ac9c629bf103951, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1477229589}
     - targetCorrespondingSourceObject: {fileID: 2082789282394174788, guid: 4b440a55d90ad7443ac9c629bf103951, type: 3}
       insertIndex: -1
       addedObject: {fileID: 9996874}
@@ -7228,12 +7234,33 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3347474462144579299, guid: ba1562ca1a306aa48b050e1a40693e36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2052284018}
+    - targetCorrespondingSourceObject: {fileID: 8610982285480771426, guid: ba1562ca1a306aa48b050e1a40693e36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1396356840}
   m_SourcePrefab: {fileID: 100100000, guid: ba1562ca1a306aa48b050e1a40693e36, type: 3}
 --- !u!4 &51194051 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5786763238431028227, guid: ba1562ca1a306aa48b050e1a40693e36, type: 3}
   m_PrefabInstance: {fileID: 51194050}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &52766684 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 132633571499265345, guid: 29f08149fff61b548a5b14a114404382, type: 3}
+  m_PrefabInstance: {fileID: 485916627}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &52766687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52766684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!1 &55956536 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1716951367205212891, guid: 1966bac7b8c179342b874a9da4c4b521, type: 3}
@@ -7591,6 +7618,19 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1513817118}
   m_SourcePrefab: {fileID: 100100000, guid: afea15cc540b8aa4ea97871164b1f67c, type: 3}
+--- !u!114 &70136151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704668600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!1 &71484398
 GameObject:
   m_ObjectHideFlags: 0
@@ -8166,6 +8206,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3620174796799418400, guid: 74ec7d569edd51249886426097f8be29, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 279956274}
     - targetCorrespondingSourceObject: {fileID: 3600936320604357499, guid: 74ec7d569edd51249886426097f8be29, type: 3}
       insertIndex: -1
       addedObject: {fileID: 83308676}
@@ -9984,6 +10027,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 126315381}
   m_CullTransparentMesh: 1
+--- !u!1 &126746512 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3620174796799418400, guid: 74ec7d569edd51249886426097f8be29, type: 3}
+  m_PrefabInstance: {fileID: 762895994}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &132087947
 GameObject:
   m_ObjectHideFlags: 0
@@ -11583,6 +11631,19 @@ Light:
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
+--- !u!114 &167965998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890425854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!4 &173086968 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9b03a5cfc9798c2439f93db76c610966, type: 3}
@@ -11898,6 +11959,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3164442842660521427, guid: b54da4e403b749f4e976ccdc5205ba07, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1224510043}
     - targetCorrespondingSourceObject: {fileID: 2895307352690337416, guid: b54da4e403b749f4e976ccdc5205ba07, type: 3}
       insertIndex: -1
       addedObject: {fileID: 182703765}
@@ -12395,6 +12459,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a2711a09539b8142a76ffdcdb526ca8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Table
+--- !u!114 &184539654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075710349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!1 &184995312
 GameObject:
   m_ObjectHideFlags: 0
@@ -12615,6 +12692,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3489735123755344298, guid: 400b4d1dd0c33e143ba0910218a6a2b0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 955992598}
+    - targetCorrespondingSourceObject: {fileID: 3375761253583822030, guid: 400b4d1dd0c33e143ba0910218a6a2b0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 565996333}
   m_SourcePrefab: {fileID: 100100000, guid: 400b4d1dd0c33e143ba0910218a6a2b0, type: 3}
 --- !u!4 &188512942 stripped
 Transform:
@@ -12706,6 +12786,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6bae342ca90d3f64f907d65f98e661e1, type: 3}
   m_PrefabInstance: {fileID: 197141320}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &200090559 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3620174796799418400, guid: 74ec7d569edd51249886426097f8be29, type: 3}
+  m_PrefabInstance: {fileID: 676895245}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &206498013
 GameObject:
@@ -13531,6 +13616,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3164442842660521427, guid: b54da4e403b749f4e976ccdc5205ba07, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1506621035}
     - targetCorrespondingSourceObject: {fileID: 2895307352690337416, guid: b54da4e403b749f4e976ccdc5205ba07, type: 3}
       insertIndex: -1
       addedObject: {fileID: 232031823}
@@ -15238,6 +15326,24 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.004
   m_Center: {x: 0, y: 0.005, z: 0.002}
+--- !u!1 &260798339 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5034190646896287045, guid: 858b6186215e31d48a0a57078a2970cf, type: 3}
+  m_PrefabInstance: {fileID: 1150019254}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &260798341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260798339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!114 &262552052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15888,6 +15994,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3347474462144579299, guid: ba1562ca1a306aa48b050e1a40693e36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 763979615}
+    - targetCorrespondingSourceObject: {fileID: 8610982285480771426, guid: ba1562ca1a306aa48b050e1a40693e36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1796993536}
   m_SourcePrefab: {fileID: 100100000, guid: ba1562ca1a306aa48b050e1a40693e36, type: 3}
 --- !u!4 &270917387 stripped
 Transform:
@@ -16311,12 +16420,33 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3347474462144579299, guid: ba1562ca1a306aa48b050e1a40693e36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1921818166}
+    - targetCorrespondingSourceObject: {fileID: 8610982285480771426, guid: ba1562ca1a306aa48b050e1a40693e36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1237293336}
   m_SourcePrefab: {fileID: 100100000, guid: ba1562ca1a306aa48b050e1a40693e36, type: 3}
 --- !u!4 &278496043 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5786763238431028227, guid: ba1562ca1a306aa48b050e1a40693e36, type: 3}
   m_PrefabInstance: {fileID: 278496042}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &279956273 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3620174796799418400, guid: 74ec7d569edd51249886426097f8be29, type: 3}
+  m_PrefabInstance: {fileID: 83308655}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &279956274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279956273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!54 &280419781
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16998,6 +17128,24 @@ MonoBehaviour:
   - {fileID: 2012097676}
   - {fileID: 748046462}
   - {fileID: 1244239494}
+--- !u!1 &309445080 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5034190646896287045, guid: 858b6186215e31d48a0a57078a2970cf, type: 3}
+  m_PrefabInstance: {fileID: 1485870499}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &309445082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309445080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!1 &313805832
 GameObject:
   m_ObjectHideFlags: 0
@@ -17270,8 +17418,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 314997716}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -17298,8 +17446,8 @@ MonoBehaviour:
   agent: {fileID: 314997719}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 314997717}
 --- !u!1 &317764097 stripped
 GameObject:
@@ -17434,6 +17582,11 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.004
   m_Center: {x: 0, y: 0.005, z: 0.002}
+--- !u!1 &320271137 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3164442842660521427, guid: b54da4e403b749f4e976ccdc5205ba07, type: 3}
+  m_PrefabInstance: {fileID: 1513640365}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &322413952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18370,6 +18523,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1568525243}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 29.458}
+--- !u!1 &350395093 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3620174796799418400, guid: 74ec7d569edd51249886426097f8be29, type: 3}
+  m_PrefabInstance: {fileID: 850525515}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &351182754
 GameObject:
   m_ObjectHideFlags: 0
@@ -18508,6 +18666,24 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 20, y: 49.92, z: 20}
   m_Center: {x: 111.36, y: 169.35, z: 0}
+--- !u!1 &356082735 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 132633571499265345, guid: 29f08149fff61b548a5b14a114404382, type: 3}
+  m_PrefabInstance: {fileID: 1081573219}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &356082738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356082735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!4 &361059319 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9b03a5cfc9798c2439f93db76c610966, type: 3}
@@ -19030,6 +19206,24 @@ PrefabInstance:
       addedObject: {fileID: 772230882}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b03a5cfc9798c2439f93db76c610966, type: 3}
+--- !u!1 &388057002 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8610982285480771426, guid: ba1562ca1a306aa48b050e1a40693e36, type: 3}
+  m_PrefabInstance: {fileID: 747767192}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &388057005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 388057002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!4 &390156966 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9b03a5cfc9798c2439f93db76c610966, type: 3}
@@ -19672,6 +19866,19 @@ CapsuleCollider:
   m_Height: 0.0134320995
   m_Direction: 1
   m_Center: {x: 0, y: 0.0067160497, z: 0}
+--- !u!114 &417464163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699144190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!1 &417789160
 GameObject:
   m_ObjectHideFlags: 0
@@ -20736,8 +20943,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 429980107}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -20764,8 +20971,8 @@ MonoBehaviour:
   agent: {fileID: 429980109}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 429980108}
 --- !u!4 &430299406 stripped
 Transform:
@@ -21867,8 +22074,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 465584103}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -21895,8 +22102,8 @@ MonoBehaviour:
   agent: {fileID: 0}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 0}
 --- !u!4 &469278844 stripped
 Transform:
@@ -22732,6 +22939,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5341981662168262694, guid: 29f08149fff61b548a5b14a114404382, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1964488662}
+    - targetCorrespondingSourceObject: {fileID: 132633571499265345, guid: 29f08149fff61b548a5b14a114404382, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 52766687}
   m_SourcePrefab: {fileID: 100100000, guid: 29f08149fff61b548a5b14a114404382, type: 3}
 --- !u!4 &485916628 stripped
 Transform:
@@ -22826,6 +23036,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3164442842660521427, guid: b54da4e403b749f4e976ccdc5205ba07, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1823671643}
     - targetCorrespondingSourceObject: {fileID: 2895307352690337416, guid: b54da4e403b749f4e976ccdc5205ba07, type: 3}
       insertIndex: -1
       addedObject: {fileID: 486078294}
@@ -23288,6 +23501,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9b03a5cfc9798c2439f93db76c610966, type: 3}
   m_PrefabInstance: {fileID: 213326700}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &491497344 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8610982285480771426, guid: ba1562ca1a306aa48b050e1a40693e36, type: 3}
+  m_PrefabInstance: {fileID: 6225242632992438236}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &491497347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491497344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!1001 &494798632
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23886,8 +24117,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 506358254}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -23914,8 +24145,8 @@ MonoBehaviour:
   agent: {fileID: 506358257}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 506358255}
 --- !u!1 &506739360
 GameObject:
@@ -24130,6 +24361,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6bae342ca90d3f64f907d65f98e661e1, type: 3}
   m_PrefabInstance: {fileID: 507539687}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &509740442 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8610982285480771426, guid: ba1562ca1a306aa48b050e1a40693e36, type: 3}
+  m_PrefabInstance: {fileID: 605782298}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &509740445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509740442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!114 &511540047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25480,6 +25729,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a2711a09539b8142a76ffdcdb526ca8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Table
+--- !u!1 &565996330 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3375761253583822030, guid: 400b4d1dd0c33e143ba0910218a6a2b0, type: 3}
+  m_PrefabInstance: {fileID: 188512941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &565996333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565996330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!1 &570035187
 GameObject:
   m_ObjectHideFlags: 0
@@ -25550,8 +25817,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 570035187}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -25578,8 +25845,8 @@ MonoBehaviour:
   agent: {fileID: 570035190}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 570035188}
 --- !u!1 &571244374
 GameObject:
@@ -25810,6 +26077,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2998150441287506306, guid: 1966bac7b8c179342b874a9da4c4b521, type: 3}
+--- !u!114 &574248118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200090559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!1 &576799932
 GameObject:
   m_ObjectHideFlags: 0
@@ -26891,6 +27171,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4864323926359529354, guid: 858b6186215e31d48a0a57078a2970cf, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1320072683}
+    - targetCorrespondingSourceObject: {fileID: 5034190646896287045, guid: 858b6186215e31d48a0a57078a2970cf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1486367696}
   m_SourcePrefab: {fileID: 100100000, guid: 858b6186215e31d48a0a57078a2970cf, type: 3}
 --- !u!4 &603768914 stripped
 Transform:
@@ -26971,6 +27254,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3347474462144579299, guid: ba1562ca1a306aa48b050e1a40693e36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1589570797}
+    - targetCorrespondingSourceObject: {fileID: 8610982285480771426, guid: ba1562ca1a306aa48b050e1a40693e36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 509740445}
   m_SourcePrefab: {fileID: 100100000, guid: ba1562ca1a306aa48b050e1a40693e36, type: 3}
 --- !u!4 &605782299 stripped
 Transform:
@@ -28276,8 +28562,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 653530848}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -28304,8 +28590,8 @@ MonoBehaviour:
   agent: {fileID: 0}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 0}
 --- !u!54 &659072825
 Rigidbody:
@@ -28795,6 +29081,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3620174796799418400, guid: 74ec7d569edd51249886426097f8be29, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 574248118}
     - targetCorrespondingSourceObject: {fileID: 3600936320604357499, guid: 74ec7d569edd51249886426097f8be29, type: 3}
       insertIndex: -1
       addedObject: {fileID: 676895266}
@@ -29376,6 +29665,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6d29681e5bcc46243affeb89aaff4d6c, type: 3}
   m_PrefabInstance: {fileID: 1599888672}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &690109401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467185795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!1001 &692128735
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29584,6 +29886,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9b03a5cfc9798c2439f93db76c610966, type: 3}
   m_PrefabInstance: {fileID: 1962479946}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &699144190 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5900145665007197704, guid: 6324cf361eb491c49aa48cd2a58929b7, type: 3}
+  m_PrefabInstance: {fileID: 1739496577}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &703364054
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29658,6 +29965,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1839622226}
   m_SourcePrefab: {fileID: 100100000, guid: e59d3b6dd421add49a138f96359a1d38, type: 3}
+--- !u!1 &704668600 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3164442842660521427, guid: b54da4e403b749f4e976ccdc5205ba07, type: 3}
+  m_PrefabInstance: {fileID: 1949908776}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &705056411
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30600,6 +30912,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2243888399829800479, guid: 4b440a55d90ad7443ac9c629bf103951, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1784594334}
     - targetCorrespondingSourceObject: {fileID: 2082789282394174788, guid: 4b440a55d90ad7443ac9c629bf103951, type: 3}
       insertIndex: -1
       addedObject: {fileID: 736267897}
@@ -31211,6 +31526,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3489735123755344298, guid: 400b4d1dd0c33e143ba0910218a6a2b0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 740026983}
+    - targetCorrespondingSourceObject: {fileID: 3375761253583822030, guid: 400b4d1dd0c33e143ba0910218a6a2b0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1501081862}
   m_SourcePrefab: {fileID: 100100000, guid: 400b4d1dd0c33e143ba0910218a6a2b0, type: 3}
 --- !u!4 &740026981 stripped
 Transform:
@@ -31237,8 +31555,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 494933521}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -31265,8 +31583,8 @@ MonoBehaviour:
   agent: {fileID: 740026983}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 740026982}
 --- !u!4 &740288504 stripped
 Transform:
@@ -31624,6 +31942,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3347474462144579299, guid: ba1562ca1a306aa48b050e1a40693e36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 747767195}
+    - targetCorrespondingSourceObject: {fileID: 8610982285480771426, guid: ba1562ca1a306aa48b050e1a40693e36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 388057005}
   m_SourcePrefab: {fileID: 100100000, guid: ba1562ca1a306aa48b050e1a40693e36, type: 3}
 --- !u!4 &747767193 stripped
 Transform:
@@ -31650,8 +31971,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 602491260}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -31678,8 +31999,8 @@ MonoBehaviour:
   agent: {fileID: 747767195}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 747767194}
 --- !u!1001 &748046460
 PrefabInstance:
@@ -32521,6 +32842,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3620174796799418400, guid: 74ec7d569edd51249886426097f8be29, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1299305541}
     - targetCorrespondingSourceObject: {fileID: 3600936320604357499, guid: 74ec7d569edd51249886426097f8be29, type: 3}
       insertIndex: -1
       addedObject: {fileID: 762896015}
@@ -32916,8 +33240,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 763979613}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -32944,8 +33268,8 @@ MonoBehaviour:
   agent: {fileID: 763979615}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 763979614}
 --- !u!1 &765416087
 GameObject:
@@ -33217,8 +33541,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 771476850}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -33245,8 +33569,8 @@ MonoBehaviour:
   agent: {fileID: 771476853}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 771476851}
 --- !u!1 &772230881
 GameObject:
@@ -35558,6 +35882,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3620174796799418400, guid: 74ec7d569edd51249886426097f8be29, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 951697835}
     - targetCorrespondingSourceObject: {fileID: 3600936320604357499, guid: 74ec7d569edd51249886426097f8be29, type: 3}
       insertIndex: -1
       addedObject: {fileID: 850525536}
@@ -35980,6 +36307,24 @@ Transform:
   - {fileID: 71484399}
   m_Father: {fileID: 1967323285}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &854041390 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8610982285480771426, guid: ba1562ca1a306aa48b050e1a40693e36, type: 3}
+  m_PrefabInstance: {fileID: 1557607550}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &854041393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854041390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!1 &856508071 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 579319659125446610, guid: 6324cf361eb491c49aa48cd2a58929b7, type: 3}
@@ -36670,6 +37015,11 @@ CapsuleCollider:
   m_Height: 0.018943146
   m_Direction: 1
   m_Center: {x: 0, y: 0.009471573, z: 0}
+--- !u!1 &873562983 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3164442842660521427, guid: b54da4e403b749f4e976ccdc5205ba07, type: 3}
+  m_PrefabInstance: {fileID: 1031877289}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &874275481 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9b03a5cfc9798c2439f93db76c610966, type: 3}
@@ -37334,7 +37684,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1681909168030228821, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.75378793
+      value: -0.13
       objectReference: {fileID: 0}
     - target: {fileID: 1681909168030228821, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -37644,6 +37994,19 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4243e80fedd89194d8d770474e72d345, type: 3}
+--- !u!114 &896052394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299315415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!1 &898495737
 GameObject:
   m_ObjectHideFlags: 0
@@ -38030,8 +38393,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 903234649}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -38058,8 +38421,8 @@ MonoBehaviour:
   agent: {fileID: 903234652}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 903234650}
 --- !u!1 &904560448 stripped
 GameObject:
@@ -39528,6 +39891,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 20, y: 49.92, z: 20}
   m_Center: {x: 111.36, y: 169.35, z: 0}
+--- !u!114 &951697835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350395093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!1 &952220805
 GameObject:
   m_ObjectHideFlags: 0
@@ -39913,8 +40289,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 955992596}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -39941,8 +40317,8 @@ MonoBehaviour:
   agent: {fileID: 955992598}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 955992597}
 --- !u!1 &956052691
 GameObject:
@@ -42120,8 +42496,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 1002444724}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -42148,8 +42524,8 @@ MonoBehaviour:
   agent: {fileID: 1002444727}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 1002444725}
 --- !u!1 &1006853750 stripped
 GameObject:
@@ -42647,6 +43023,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 592910251}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1023655709 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5900145665007197704, guid: 6324cf361eb491c49aa48cd2a58929b7, type: 3}
+  m_PrefabInstance: {fileID: 1309033696}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1023655710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023655709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!1 &1030657842
 GameObject:
   m_ObjectHideFlags: 0
@@ -42974,6 +43368,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3164442842660521427, guid: b54da4e403b749f4e976ccdc5205ba07, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1244322498}
     - targetCorrespondingSourceObject: {fileID: 2895307352690337416, guid: b54da4e403b749f4e976ccdc5205ba07, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1031877310}
@@ -44652,6 +45049,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1568525243}
   m_LocalEulerAnglesHint: {x: 89.17, y: -90, z: -270}
+--- !u!1 &1075710349 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3620174796799418400, guid: 74ec7d569edd51249886426097f8be29, type: 3}
+  m_PrefabInstance: {fileID: 1272109577}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1081189566
 GameObject:
   m_ObjectHideFlags: 0
@@ -44867,6 +45269,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5341981662168262694, guid: 29f08149fff61b548a5b14a114404382, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1081573222}
+    - targetCorrespondingSourceObject: {fileID: 132633571499265345, guid: 29f08149fff61b548a5b14a114404382, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 356082738}
   m_SourcePrefab: {fileID: 100100000, guid: 29f08149fff61b548a5b14a114404382, type: 3}
 --- !u!4 &1081573220 stripped
 Transform:
@@ -44893,8 +45298,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 1062299549}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -44921,8 +45326,8 @@ MonoBehaviour:
   agent: {fileID: 1081573222}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 1081573221}
 --- !u!1 &1081749845
 GameObject:
@@ -45335,6 +45740,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4864323926359529354, guid: 858b6186215e31d48a0a57078a2970cf, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1102564479}
+    - targetCorrespondingSourceObject: {fileID: 5034190646896287045, guid: 858b6186215e31d48a0a57078a2970cf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1402720681}
   m_SourcePrefab: {fileID: 100100000, guid: 858b6186215e31d48a0a57078a2970cf, type: 3}
 --- !u!4 &1102564477 stripped
 Transform:
@@ -45361,8 +45769,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 107396524}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -45389,8 +45797,8 @@ MonoBehaviour:
   agent: {fileID: 1102564479}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 1102564478}
 --- !u!114 &1104789719
 MonoBehaviour:
@@ -46235,6 +46643,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3620174796799418400, guid: 74ec7d569edd51249886426097f8be29, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1461790287}
     - targetCorrespondingSourceObject: {fileID: 3600936320604357499, guid: 74ec7d569edd51249886426097f8be29, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1564065712}
@@ -47246,8 +47657,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 1138734048}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -47274,8 +47685,8 @@ MonoBehaviour:
   agent: {fileID: 1138734051}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 1138734049}
 --- !u!1 &1140411342
 GameObject:
@@ -47431,6 +47842,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4864323926359529354, guid: 858b6186215e31d48a0a57078a2970cf, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2138166228}
+    - targetCorrespondingSourceObject: {fileID: 5034190646896287045, guid: 858b6186215e31d48a0a57078a2970cf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 260798341}
   m_SourcePrefab: {fileID: 100100000, guid: 858b6186215e31d48a0a57078a2970cf, type: 3}
 --- !u!4 &1150019255 stripped
 Transform:
@@ -48652,8 +49066,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 1184583893}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -48680,8 +49094,8 @@ MonoBehaviour:
   agent: {fileID: 1184583896}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 1184583894}
 --- !u!4 &1187461079 stripped
 Transform:
@@ -50038,6 +50452,24 @@ PrefabInstance:
       addedObject: {fileID: 1281683341}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b03a5cfc9798c2439f93db76c610966, type: 3}
+--- !u!1 &1224510042 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3164442842660521427, guid: b54da4e403b749f4e976ccdc5205ba07, type: 3}
+  m_PrefabInstance: {fileID: 182703744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1224510043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224510042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!4 &1227280649 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1718529288432365019, guid: 6ccb4c58a8d1dea48ae14b57430b4624, type: 3}
@@ -50222,8 +50654,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 1231019841}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -50250,8 +50682,8 @@ MonoBehaviour:
   agent: {fileID: 0}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 0}
 --- !u!4 &1236315655 stripped
 Transform:
@@ -50352,6 +50784,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d951e97913f92994eaa8ccbc512e457f, type: 3}
   m_PrefabInstance: {fileID: 1237282913}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1237293333 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8610982285480771426, guid: ba1562ca1a306aa48b050e1a40693e36, type: 3}
+  m_PrefabInstance: {fileID: 278496042}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1237293336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237293333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!1 &1239662018 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5919399473837079891, guid: 6324cf361eb491c49aa48cd2a58929b7, type: 3}
@@ -50812,6 +51262,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a2711a09539b8142a76ffdcdb526ca8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Table
+--- !u!114 &1244322498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 873562983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!1 &1244653564 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7777016395049203218, guid: 6324cf361eb491c49aa48cd2a58929b7, type: 3}
@@ -51010,8 +51473,8 @@ Transform:
   m_GameObject: {fileID: 1249686091}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.31, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -51416,6 +51879,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3620174796799418400, guid: 74ec7d569edd51249886426097f8be29, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 184539654}
     - targetCorrespondingSourceObject: {fileID: 3600936320604357499, guid: 74ec7d569edd51249886426097f8be29, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1272109598}
@@ -53058,6 +53524,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 592910251}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1299305541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126746512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
+--- !u!1 &1299315415 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5900145665007197704, guid: 6324cf361eb491c49aa48cd2a58929b7, type: 3}
+  m_PrefabInstance: {fileID: 1525436873}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1299350975 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6d29681e5bcc46243affeb89aaff4d6c, type: 3}
@@ -53356,6 +53840,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5900145665007197704, guid: 6324cf361eb491c49aa48cd2a58929b7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1023655710}
     - targetCorrespondingSourceObject: {fileID: 5919399473837079891, guid: 6324cf361eb491c49aa48cd2a58929b7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1239662021}
@@ -53887,8 +54374,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 1320072681}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -53915,8 +54402,8 @@ MonoBehaviour:
   agent: {fileID: 1320072683}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 1320072682}
 --- !u!1 &1320493062
 GameObject:
@@ -53988,8 +54475,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 1320493062}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -54016,8 +54503,8 @@ MonoBehaviour:
   agent: {fileID: 1320493065}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 1320493063}
 --- !u!1 &1323632565
 GameObject:
@@ -54089,8 +54576,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 1323632565}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -54117,8 +54604,8 @@ MonoBehaviour:
   agent: {fileID: 0}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 0}
 --- !u!1001 &1327163819
 PrefabInstance:
@@ -61015,6 +61502,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1081749846}
   m_LocalEulerAnglesHint: {x: -90, y: 90, z: 90}
+--- !u!1 &1396356837 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8610982285480771426, guid: ba1562ca1a306aa48b050e1a40693e36, type: 3}
+  m_PrefabInstance: {fileID: 51194050}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1396356840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396356837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!1001 &1401295305
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -61101,6 +61606,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6bae342ca90d3f64f907d65f98e661e1, type: 3}
   m_PrefabInstance: {fileID: 1401295305}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1402720679 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5034190646896287045, guid: 858b6186215e31d48a0a57078a2970cf, type: 3}
+  m_PrefabInstance: {fileID: 1102564476}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1402720681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402720679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!114 &1404315865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61484,6 +62007,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9b5d8954afde6154a90df0b473e49e1d, type: 3}
   m_PrefabInstance: {fileID: 1417624264}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1419526717 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 132633571499265345, guid: 29f08149fff61b548a5b14a114404382, type: 3}
+  m_PrefabInstance: {fileID: 1536630779}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1419526720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419526717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!4 &1420729972 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9b03a5cfc9798c2439f93db76c610966, type: 3}
@@ -62016,6 +62557,24 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 448229931}
   m_SourcePrefab: {fileID: 100100000, guid: afea15cc540b8aa4ea97871164b1f67c, type: 3}
+--- !u!1 &1427579040 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 132633571499265345, guid: 29f08149fff61b548a5b14a114404382, type: 3}
+  m_PrefabInstance: {fileID: 3650386140711246153}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1427579043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1427579040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!1 &1428314824
 GameObject:
   m_ObjectHideFlags: 0
@@ -62867,6 +63426,29 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 20, y: 49.92, z: 20}
   m_Center: {x: 111.36, y: 169.35, z: 0}
+--- !u!1 &1445426962 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 132633571499265345, guid: 29f08149fff61b548a5b14a114404382, type: 3}
+  m_PrefabInstance: {fileID: 69632}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1445426965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445426962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
+--- !u!1 &1446666947 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2243888399829800479, guid: 4b440a55d90ad7443ac9c629bf103951, type: 3}
+  m_PrefabInstance: {fileID: 1540012018}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1455198672 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: afea15cc540b8aa4ea97871164b1f67c, type: 3}
@@ -63077,6 +63659,24 @@ CapsuleCollider:
   m_Height: 0.021524914
   m_Direction: 1
   m_Center: {x: 0, y: 0.010762457, z: 0}
+--- !u!1 &1461790286 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3620174796799418400, guid: 74ec7d569edd51249886426097f8be29, type: 3}
+  m_PrefabInstance: {fileID: 1117851523}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1461790287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461790286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!1 &1463623671 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7524831300628163329, guid: 6d29681e5bcc46243affeb89aaff4d6c, type: 3}
@@ -63103,6 +63703,29 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.7024864, y: 2.967299, z: 2.80137}
   m_Center: {x: 2.6760828, y: 1.8508415, z: 7.1255608}
+--- !u!1 &1464873149 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3375761253583822030, guid: 400b4d1dd0c33e143ba0910218a6a2b0, type: 3}
+  m_PrefabInstance: {fileID: 2029700007}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1464873152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464873149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
+--- !u!1 &1467185795 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3620174796799418400, guid: 74ec7d569edd51249886426097f8be29, type: 3}
+  m_PrefabInstance: {fileID: 1991929401}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1467712330
 GameObject:
   m_ObjectHideFlags: 0
@@ -63555,6 +64178,24 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 20, y: 49.92, z: 20}
   m_Center: {x: 111.36, y: 169.35, z: 0}
+--- !u!1 &1477229588 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2243888399829800479, guid: 4b440a55d90ad7443ac9c629bf103951, type: 3}
+  m_PrefabInstance: {fileID: 9996853}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1477229589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477229588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!1 &1477317086
 GameObject:
   m_ObjectHideFlags: 0
@@ -63922,6 +64563,24 @@ PrefabInstance:
       addedObject: {fileID: 42094484}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b03a5cfc9798c2439f93db76c610966, type: 3}
+--- !u!1 &1485393311 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3375761253583822030, guid: 400b4d1dd0c33e143ba0910218a6a2b0, type: 3}
+  m_PrefabInstance: {fileID: 1897331849614209044}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1485393314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485393311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!1 &1485804357
 GameObject:
   m_ObjectHideFlags: 0
@@ -64151,6 +64810,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4864323926359529354, guid: 858b6186215e31d48a0a57078a2970cf, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1485870502}
+    - targetCorrespondingSourceObject: {fileID: 5034190646896287045, guid: 858b6186215e31d48a0a57078a2970cf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 309445082}
   m_SourcePrefab: {fileID: 100100000, guid: 858b6186215e31d48a0a57078a2970cf, type: 3}
 --- !u!4 &1485870500 stripped
 Transform:
@@ -64177,8 +64839,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 420410533}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -64205,9 +64867,27 @@ MonoBehaviour:
   agent: {fileID: 1485870502}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 1485870501}
+--- !u!1 &1486367694 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5034190646896287045, guid: 858b6186215e31d48a0a57078a2970cf, type: 3}
+  m_PrefabInstance: {fileID: 603768913}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1486367696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486367694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!114 &1486673998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64922,6 +65602,24 @@ CapsuleCollider:
   m_Height: 0.019508725
   m_Direction: 1
   m_Center: {x: 0, y: 0.0097543625, z: 0}
+--- !u!1 &1501081859 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3375761253583822030, guid: 400b4d1dd0c33e143ba0910218a6a2b0, type: 3}
+  m_PrefabInstance: {fileID: 740026980}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1501081862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1501081859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!1 &1505069236
 GameObject:
   m_ObjectHideFlags: 0
@@ -65013,6 +65711,24 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1506621034 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3164442842660521427, guid: b54da4e403b749f4e976ccdc5205ba07, type: 3}
+  m_PrefabInstance: {fileID: 232031802}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1506621035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506621034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!1 &1508579918 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7612693509359154491, guid: afea15cc540b8aa4ea97871164b1f67c, type: 3}
@@ -65186,6 +65902,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3164442842660521427, guid: b54da4e403b749f4e976ccdc5205ba07, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1993993380}
     - targetCorrespondingSourceObject: {fileID: 2895307352690337416, guid: b54da4e403b749f4e976ccdc5205ba07, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1513640386}
@@ -66019,6 +66738,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5900145665007197704, guid: 6324cf361eb491c49aa48cd2a58929b7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 896052394}
     - targetCorrespondingSourceObject: {fileID: 5919399473837079891, guid: 6324cf361eb491c49aa48cd2a58929b7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1525436894}
@@ -66984,6 +67706,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5341981662168262694, guid: 29f08149fff61b548a5b14a114404382, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1536630782}
+    - targetCorrespondingSourceObject: {fileID: 132633571499265345, guid: 29f08149fff61b548a5b14a114404382, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1419526720}
   m_SourcePrefab: {fileID: 100100000, guid: 29f08149fff61b548a5b14a114404382, type: 3}
 --- !u!4 &1536630780 stripped
 Transform:
@@ -67010,8 +67735,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 1532836743}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -67038,8 +67763,8 @@ MonoBehaviour:
   agent: {fileID: 1536630782}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 1536630781}
 --- !u!1001 &1540012018
 PrefabInstance:
@@ -67129,6 +67854,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2243888399829800479, guid: 4b440a55d90ad7443ac9c629bf103951, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1841496910}
     - targetCorrespondingSourceObject: {fileID: 2082789282394174788, guid: 4b440a55d90ad7443ac9c629bf103951, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1540012039}
@@ -67921,6 +68649,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3347474462144579299, guid: ba1562ca1a306aa48b050e1a40693e36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1557607553}
+    - targetCorrespondingSourceObject: {fileID: 8610982285480771426, guid: ba1562ca1a306aa48b050e1a40693e36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 854041393}
   m_SourcePrefab: {fileID: 100100000, guid: ba1562ca1a306aa48b050e1a40693e36, type: 3}
 --- !u!4 &1557607551 stripped
 Transform:
@@ -67947,8 +68678,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 120135166}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -67975,8 +68706,8 @@ MonoBehaviour:
   agent: {fileID: 1557607553}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 1557607552}
 --- !u!1 &1558489320
 GameObject:
@@ -68575,8 +69306,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 1572655228}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -68603,8 +69334,8 @@ MonoBehaviour:
   agent: {fileID: 1572655231}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 1572655229}
 --- !u!1001 &1578513113
 PrefabInstance:
@@ -69051,8 +69782,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 1589570795}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -69079,8 +69810,8 @@ MonoBehaviour:
   agent: {fileID: 1589570797}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 1589570796}
 --- !u!4 &1591040918 stripped
 Transform:
@@ -70370,8 +71101,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 1618339820}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -70398,8 +71129,8 @@ MonoBehaviour:
   agent: {fileID: 1618339823}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 1618339821}
 --- !u!1001 &1620161002
 PrefabInstance:
@@ -71438,8 +72169,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 1652158904}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -71466,8 +72197,8 @@ MonoBehaviour:
   agent: {fileID: 0}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 0}
 --- !u!4 &1659608674 stripped
 Transform:
@@ -73980,6 +74711,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5900145665007197704, guid: 6324cf361eb491c49aa48cd2a58929b7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 417464163}
     - targetCorrespondingSourceObject: {fileID: 5919399473837079891, guid: 6324cf361eb491c49aa48cd2a58929b7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1739496598}
@@ -75094,6 +75828,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a2711a09539b8142a76ffdcdb526ca8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Table
+--- !u!1 &1758446618 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3375761253583822030, guid: 400b4d1dd0c33e143ba0910218a6a2b0, type: 3}
+  m_PrefabInstance: {fileID: 2115248676}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1758446621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758446618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!1001 &1759701758
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -76133,6 +76885,24 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1491387241}
   m_SourcePrefab: {fileID: 100100000, guid: 6d29681e5bcc46243affeb89aaff4d6c, type: 3}
+--- !u!1 &1784594333 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2243888399829800479, guid: 4b440a55d90ad7443ac9c629bf103951, type: 3}
+  m_PrefabInstance: {fileID: 736267876}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1784594334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784594333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!114 &1785197506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76659,6 +77429,24 @@ Light:
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
+--- !u!1 &1796993533 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8610982285480771426, guid: ba1562ca1a306aa48b050e1a40693e36, type: 3}
+  m_PrefabInstance: {fileID: 270917386}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1796993536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796993533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!1001 &1798494666
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -77693,6 +78481,24 @@ CapsuleCollider:
   m_Height: 0.019752458
   m_Direction: 1
   m_Center: {x: 0, y: 0.009876229, z: 0}
+--- !u!1 &1823671642 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3164442842660521427, guid: b54da4e403b749f4e976ccdc5205ba07, type: 3}
+  m_PrefabInstance: {fileID: 486078273}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1823671643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1823671642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!4 &1825792275 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 359301091748577943, guid: b1255336462c1524e894e9e3f11501f9, type: 3}
@@ -77829,6 +78635,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1568525243}
   m_LocalEulerAnglesHint: {x: 88.919, y: -129.784, z: 140}
+--- !u!1 &1835737220 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5034190646896287045, guid: 858b6186215e31d48a0a57078a2970cf, type: 3}
+  m_PrefabInstance: {fileID: 5922518714553858869}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1835737222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835737220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!1 &1837328207
 GameObject:
   m_ObjectHideFlags: 0
@@ -78124,6 +78948,19 @@ CapsuleCollider:
   m_Height: 0.019508725
   m_Direction: 1
   m_Center: {x: 0, y: 0.0097543625, z: 0}
+--- !u!114 &1841496910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446666947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!1 &1845703727
 GameObject:
   m_ObjectHideFlags: 0
@@ -79270,6 +80107,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 716462414}
   m_SourcePrefab: {fileID: 100100000, guid: afea15cc540b8aa4ea97871164b1f67c, type: 3}
+--- !u!1 &1890425854 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5900145665007197704, guid: 6324cf361eb491c49aa48cd2a58929b7, type: 3}
+  m_PrefabInstance: {fileID: 1997230601}
+  m_PrefabAsset: {fileID: 0}
 --- !u!54 &1890746885
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -80388,8 +81230,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 1906320515}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -80416,8 +81258,8 @@ MonoBehaviour:
   agent: {fileID: 1906320520}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 1906320519}
 --- !u!1 &1907493560 stripped
 GameObject:
@@ -80983,8 +81825,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 1921818164}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -81011,8 +81853,8 @@ MonoBehaviour:
   agent: {fileID: 1921818166}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 1921818165}
 --- !u!1 &1923919632
 GameObject:
@@ -81807,6 +82649,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3164442842660521427, guid: b54da4e403b749f4e976ccdc5205ba07, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 70136151}
     - targetCorrespondingSourceObject: {fileID: 2895307352690337416, guid: b54da4e403b749f4e976ccdc5205ba07, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1949908797}
@@ -82252,8 +83097,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 1951254797}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -82280,8 +83125,8 @@ MonoBehaviour:
   agent: {fileID: 1951254800}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 1951254798}
 --- !u!1001 &1954959684
 PrefabInstance:
@@ -82918,8 +83763,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 1964488660}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -82946,8 +83791,8 @@ MonoBehaviour:
   agent: {fileID: 1964488662}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 1964488661}
 --- !u!1 &1964934268
 GameObject:
@@ -83939,6 +84784,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3620174796799418400, guid: 74ec7d569edd51249886426097f8be29, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 690109401}
     - targetCorrespondingSourceObject: {fileID: 3600936320604357499, guid: 74ec7d569edd51249886426097f8be29, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1991929422}
@@ -84335,6 +85183,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.702486, y: 2.967299, z: 2.8013692}
   m_Center: {x: 2.676084, y: 1.8508415, z: 7.125559}
+--- !u!114 &1993993380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320271137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a762c74c5d30fc4288f63ecfcd53839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationOffset
+  stateName: Skate
 --- !u!1 &1994485523
 GameObject:
   m_ObjectHideFlags: 0
@@ -84536,6 +85397,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5900145665007197704, guid: 6324cf361eb491c49aa48cd2a58929b7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 167965998}
     - targetCorrespondingSourceObject: {fileID: 5919399473837079891, guid: 6324cf361eb491c49aa48cd2a58929b7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1997230622}
@@ -86745,6 +87609,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3489735123755344298, guid: 400b4d1dd0c33e143ba0910218a6a2b0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2029700010}
+    - targetCorrespondingSourceObject: {fileID: 3375761253583822030, guid: 400b4d1dd0c33e143ba0910218a6a2b0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1464873152}
   m_SourcePrefab: {fileID: 100100000, guid: 400b4d1dd0c33e143ba0910218a6a2b0, type: 3}
 --- !u!4 &2029700008 stripped
 Transform:
@@ -86760,8 +87627,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 1353777176}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -86788,8 +87655,8 @@ MonoBehaviour:
   agent: {fileID: 0}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 0}
 --- !u!1 &2031375823
 GameObject:
@@ -87760,8 +88627,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 2052284016}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -87788,8 +88655,8 @@ MonoBehaviour:
   agent: {fileID: 0}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 0}
 --- !u!1 &2052443933
 GameObject:
@@ -88575,8 +89442,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 2080135340}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -88603,8 +89470,8 @@ MonoBehaviour:
   agent: {fileID: 2080135344}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 2080135341}
 --- !u!54 &2080437851
 Rigidbody:
@@ -90012,6 +90879,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3489735123755344298, guid: 400b4d1dd0c33e143ba0910218a6a2b0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2115248679}
+    - targetCorrespondingSourceObject: {fileID: 3375761253583822030, guid: 400b4d1dd0c33e143ba0910218a6a2b0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1758446621}
   m_SourcePrefab: {fileID: 100100000, guid: 400b4d1dd0c33e143ba0910218a6a2b0, type: 3}
 --- !u!4 &2115248677 stripped
 Transform:
@@ -90038,8 +90908,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 2084112130}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -90066,8 +90936,8 @@ MonoBehaviour:
   agent: {fileID: 2115248679}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 2115248678}
 --- !u!1 &2116158323
 GameObject:
@@ -90139,8 +91009,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 2116158323}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -90167,8 +91037,8 @@ MonoBehaviour:
   agent: {fileID: 2116158326}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 2116158324}
 --- !u!114 &2129710648
 MonoBehaviour:
@@ -95248,8 +96118,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 2138166226}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -95276,8 +96146,8 @@ MonoBehaviour:
   agent: {fileID: 2138166228}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 2138166227}
 --- !u!114 &2139943364
 MonoBehaviour:
@@ -95845,6 +96715,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3489735123755344298, guid: 400b4d1dd0c33e143ba0910218a6a2b0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1897331849614209047}
+    - targetCorrespondingSourceObject: {fileID: 3375761253583822030, guid: 400b4d1dd0c33e143ba0910218a6a2b0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1485393314}
   m_SourcePrefab: {fileID: 100100000, guid: 400b4d1dd0c33e143ba0910218a6a2b0, type: 3}
 --- !u!4 &1897331849614209045 stripped
 Transform:
@@ -95871,8 +96744,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 2042018621}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -95899,8 +96772,8 @@ MonoBehaviour:
   agent: {fileID: 1897331849614209047}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 1897331849614209046}
 --- !u!1001 &3650386140711246153
 PrefabInstance:
@@ -96004,6 +96877,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5341981662168262694, guid: 29f08149fff61b548a5b14a114404382, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3650386140711246156}
+    - targetCorrespondingSourceObject: {fileID: 132633571499265345, guid: 29f08149fff61b548a5b14a114404382, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1427579043}
   m_SourcePrefab: {fileID: 100100000, guid: 29f08149fff61b548a5b14a114404382, type: 3}
 --- !u!4 &3650386140711246154 stripped
 Transform:
@@ -96019,8 +96895,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 780469589}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -96047,8 +96923,8 @@ MonoBehaviour:
   agent: {fileID: 3650386140711246156}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 0}
 --- !u!1001 &5922518714553858869
 PrefabInstance:
@@ -96152,6 +97028,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4864323926359529354, guid: 858b6186215e31d48a0a57078a2970cf, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5922518714553858872}
+    - targetCorrespondingSourceObject: {fileID: 5034190646896287045, guid: 858b6186215e31d48a0a57078a2970cf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1835737222}
   m_SourcePrefab: {fileID: 100100000, guid: 858b6186215e31d48a0a57078a2970cf, type: 3}
 --- !u!4 &5922518714553858870 stripped
 Transform:
@@ -96184,8 +97063,8 @@ MonoBehaviour:
   agent: {fileID: 5922518714553858873}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 5922518714553858871}
 --- !u!195 &5922518714553858873
 NavMeshAgent:
@@ -96196,8 +97075,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 376581454}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -96283,6 +97162,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3347474462144579299, guid: ba1562ca1a306aa48b050e1a40693e36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6225242632992438239}
+    - targetCorrespondingSourceObject: {fileID: 8610982285480771426, guid: ba1562ca1a306aa48b050e1a40693e36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 491497347}
   m_SourcePrefab: {fileID: 100100000, guid: ba1562ca1a306aa48b050e1a40693e36, type: 3}
 --- !u!4 &6225242632992438237 stripped
 Transform:
@@ -96309,8 +97191,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 712508194}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 5
+  m_Radius: 1.5
+  m_Speed: 8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -96337,8 +97219,8 @@ MonoBehaviour:
   agent: {fileID: 6225242632992438239}
   range: 130
   centrePoint: {fileID: 1249686094}
-  minIdleTime: 1
-  maxIdleTime: 3
+  minIdleTime: 2
+  maxIdleTime: 5
   ragdollController: {fileID: 6225242632992438238}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.AI;
+using System.Collections;
 
 public class RandomAIMove : MonoBehaviour
 {
@@ -13,7 +14,6 @@ public class RandomAIMove : MonoBehaviour
     public float maxIdleTime = 4f;
 
     [Header("Ragdoll Integration")]
-    [Tooltip("Optional. If assigned, movement logic pauses while the NPC is ragdolled.")]
     public AIRagdollController ragdollController;
 
     private float idleTimer;
@@ -31,8 +31,12 @@ public class RandomAIMove : MonoBehaviour
 
     private void Update()
     {
-        // Ragdoll owns movement right now - don't fight it or the get-up routine.
-        if (ragdollController != null && ragdollController.IsRagdolled) return;
+        // Ragdoll owns movement right now 
+        if (ragdollController != null && ragdollController.IsRagdolled) 
+        {
+            //StartCoroutine(Wait());
+            return;
+        } 
 
         if (agent.pathPending) return;
 
@@ -51,6 +55,15 @@ public class RandomAIMove : MonoBehaviour
                 PickNewDestination();
             }
         }
+    }
+
+    IEnumerator Wait()
+    {
+
+        yield return new WaitForSeconds(5f);
+        isWaiting = true;
+        //PickNewDestination();
+
     }
 
     private void PickNewDestination()
