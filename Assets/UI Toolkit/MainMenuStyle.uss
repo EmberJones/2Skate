@@ -28,8 +28,10 @@
 }
 
 .button:hover {
-    -unity-background-image-tint-color: rgb(255, 0, 0);
+    -unity-background-image-tint-color: rgb(255, 4, 0);
     scale: 1.1 1.1;
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .bodytext {

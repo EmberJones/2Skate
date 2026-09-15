@@ -42,6 +42,9 @@ public class PlayerCarrier : MonoBehaviour
 
         if (carryable is FoodItem && TableManager.Instance != null)
             TableManager.Instance.ShowActiveTables(true);
+
+        if (carryable is SkateItem && SkateReturnPoint.Instance != null)
+            SkateReturnPoint.Instance.SetHighlight(true);
     }
 
     public void DeliverFood(Table table)
@@ -71,6 +74,7 @@ public class PlayerCarrier : MonoBehaviour
         if (CarriedItem == null) return;
 
         bool wasFood = CarriedItem is FoodItem;
+        bool wasSkate = CarriedItem is SkateItem;
 
         carryMeshRenderer.enabled = false;
 
@@ -84,5 +88,24 @@ public class PlayerCarrier : MonoBehaviour
 
         if (wasFood && TableManager.Instance != null)
             TableManager.Instance.ShowActiveTables(false);
+
+        if (wasSkate && SkateReturnPoint.Instance != null)
+            SkateReturnPoint.Instance.SetHighlight(false);
+    }
+
+    public void ReturnSkate(SkateReturnPoint point)
+    {
+        SkateItem skate = CarriedItem as SkateItem;
+        if (skate == null) return;
+
+        carryMeshRenderer.enabled = false;
+        CarriedItem = null;
+
+        point.SetHighlight(false);
+
+        if (ObjectiveManager.Instance != null)
+            ObjectiveManager.Instance.ReportProgress(ObjectiveType.ReturnSkates);
+
+        Destroy(skate.gameObject);
     }
 }
