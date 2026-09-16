@@ -86,7 +86,6 @@ MonoBehaviour:
   turnTorque: 12
   angularDamping: 6
   maxAngularSpeed: 4
-  lateralGrip: 10
   misalignmentCurve:
     serializedVersion: 2
     m_Curve: []
@@ -101,6 +100,7 @@ MonoBehaviour:
   groundAlignTorque: 20
   groundAlignDamping: 4
   centerOfMassOffset: {x: 0, y: 0.1, z: 0}
+  grounded: 0
 --- !u!65 &4901997972898211106
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -152,7 +152,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6176822946317171961, guid: c888d5fb6b693294a9eb57e1a0b17eff, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: -0.427
       objectReference: {fileID: 0}
     - target: {fileID: 6176822946317171961, guid: c888d5fb6b693294a9eb57e1a0b17eff, type: 3}
       propertyPath: m_LocalPosition.z
@@ -264,7 +264,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6176822946317171961, guid: c888d5fb6b693294a9eb57e1a0b17eff, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: -0.427
       objectReference: {fileID: 0}
     - target: {fileID: 6176822946317171961, guid: c888d5fb6b693294a9eb57e1a0b17eff, type: 3}
       propertyPath: m_LocalPosition.z
@@ -372,7 +372,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6176822946317171961, guid: c888d5fb6b693294a9eb57e1a0b17eff, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: -0.427
       objectReference: {fileID: 0}
     - target: {fileID: 6176822946317171961, guid: c888d5fb6b693294a9eb57e1a0b17eff, type: 3}
       propertyPath: m_LocalPosition.z
@@ -484,7 +484,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6176822946317171961, guid: c888d5fb6b693294a9eb57e1a0b17eff, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: -0.427
       objectReference: {fileID: 0}
     - target: {fileID: 6176822946317171961, guid: c888d5fb6b693294a9eb57e1a0b17eff, type: 3}
       propertyPath: m_LocalPosition.z

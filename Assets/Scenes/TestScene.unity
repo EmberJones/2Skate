@@ -10189,6 +10189,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Table
   indicatorParticles: {fileID: 496529824}
   foodPlacementPoint: {fileID: 354293975}
+  outline: {fileID: 0}
 --- !u!1 &496529822
 GameObject:
   m_ObjectHideFlags: 0
@@ -15210,7 +15211,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1681909168030228821, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.10694933
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 1681909168030228821, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -15244,13 +15245,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1782627356523772020, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.346
+      objectReference: {fileID: 0}
     - target: {fileID: 2156991460959998219, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2204345317493689909, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.444
+      objectReference: {fileID: 0}
     - target: {fileID: 2294694310241533447, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315697149416685773, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
+      propertyPath: m_Interpolate
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2421197439903940197, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
       propertyPath: m_TagString
@@ -15279,6 +15292,10 @@ PrefabInstance:
     - target: {fileID: 2933258745104468439, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2990936326251874783, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.346
       objectReference: {fileID: 0}
     - target: {fileID: 3086650505906555879, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
       propertyPath: m_TagString
@@ -15340,6 +15357,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3435035937073135518, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.444
+      objectReference: {fileID: 0}
     - target: {fileID: 3788230622029025657, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
       propertyPath: pushForce
       value: 120
@@ -15372,6 +15393,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5247408820244392188, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.444
+      objectReference: {fileID: 0}
+    - target: {fileID: 5604664287789067541, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.444
+      objectReference: {fileID: 0}
     - target: {fileID: 5607743865378075801, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
       propertyPath: m_TagString
       value: Player
@@ -15383,6 +15412,14 @@ PrefabInstance:
     - target: {fileID: 6580269080441813182, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6669706839828648059, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.444
+      objectReference: {fileID: 0}
+    - target: {fileID: 6774943599503917660, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
+      propertyPath: m_Interpolate
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7114081166465103142, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
       propertyPath: m_Size.x
@@ -15404,9 +15441,17 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: 0.0025
       objectReference: {fileID: 0}
+    - target: {fileID: 7423389572676571008, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7884197453688948865, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7904755879462494672, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.444
       objectReference: {fileID: 0}
     - target: {fileID: 8288128209992248988, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
       propertyPath: m_TagString
@@ -15416,9 +15461,17 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8786047995806947671, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.444
+      objectReference: {fileID: 0}
     - target: {fileID: 8908031063487680834, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 9005825856245603518, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.444
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15616,6 +15669,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3003bcd754002d41a1239f917f54c39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HUDEvents
+  mainMenuSceneName: MainMenu
 --- !u!1 &889117519
 GameObject:
   m_ObjectHideFlags: 0
@@ -15752,7 +15806,6 @@ MonoBehaviour:
   outline: {fileID: 0}
   targetTable: {fileID: 1799625850}
   isDelivered: 0
-  indicatorPartilces: {fileID: 0}
 --- !u!23 &932358169
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16005,7 +16058,6 @@ MonoBehaviour:
   outline: {fileID: 1064342474}
   targetTable: {fileID: 451688959}
   isDelivered: 0
-  indicatorPartilces: {fileID: 496529824}
 --- !u!23 &1064342470
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16288,7 +16340,6 @@ MonoBehaviour:
   outline: {fileID: 0}
   targetTable: {fileID: 2021417944}
   isDelivered: 0
-  indicatorPartilces: {fileID: 0}
 --- !u!23 &1082801549
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -31169,7 +31220,6 @@ MonoBehaviour:
   outline: {fileID: 0}
   targetTable: {fileID: 2002557871}
   isDelivered: 0
-  indicatorPartilces: {fileID: 0}
 --- !u!23 &1791295724
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -31321,6 +31371,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Table
   indicatorParticles: {fileID: 0}
   foodPlacementPoint: {fileID: 1799625854}
+  outline: {fileID: 0}
 --- !u!23 &1799625851
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -31482,6 +31533,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Table
   indicatorParticles: {fileID: 0}
   foodPlacementPoint: {fileID: 2002557875}
+  outline: {fileID: 0}
 --- !u!23 &2002557872
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -31637,6 +31689,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Table
   indicatorParticles: {fileID: 0}
   foodPlacementPoint: {fileID: 2021417948}
+  outline: {fileID: 0}
 --- !u!23 &2021417945
 MeshRenderer:
   m_ObjectHideFlags: 0
