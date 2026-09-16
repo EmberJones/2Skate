@@ -62,12 +62,12 @@
     align-content: flex-start;
     justify-content: center;
     position: relative;
-    translate: 0 1300px;
     opacity: 1;
+    translate: 0 1300px;
 }
 
 .GameOver {
-    translate: 0 400px;
+    translate: 0 600px;
     scale: 1.1 1.1;
     color: rgb(201, 36, 36);
 }
@@ -84,6 +84,6 @@
 }
 
 .GameWon {
-    translate: 0 400px;
     scale: 1.1 1.1;
+    translate: 0 400px;
 }

@@ -12,8 +12,9 @@ public class OldStyleUIManager : MonoBehaviour
         {
             Debug.Log("0 Seconds");
             GameEvents.RaiseGameOver();
+            Time.timeScale = 0f;
         }
-        else 
+        else
         {
             if (timer <= 30)
             {

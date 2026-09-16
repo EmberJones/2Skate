@@ -58,6 +58,8 @@ public class ObjectiveManager : MonoBehaviour
             {
                 OnAllObjectivesCompleted?.Invoke();
                 GameEvents.RaiseGameWin();
+                Time.timeScale = 0f;
+                
             }
                 
         }

@@ -16,6 +16,8 @@ public class HUDEvents : MonoBehaviour
     Button _dropdownButton;
     Button _mainMenuButton;
     Button _restartButton;
+    Button _mainMenuButton1;
+    Button _restartButton1;
     VisualElement _gameOverMenu;
     VisualElement _gameWinMenu;
 
@@ -32,12 +34,16 @@ public class HUDEvents : MonoBehaviour
         _dropdownButton = root.Q<Button>("Dropdown");
         _mainMenuButton = root.Q<Button>("MainMenuBtn");
         _restartButton = root.Q<Button>("RestartBtn");
+        _mainMenuButton1 = root.Q<Button>("MainMenuBtn1");
+        _restartButton1 = root.Q<Button>("RestartBtn1");
         _gameOverMenu = root.Q<VisualElement>("GameOverContainer");
         _gameWinMenu = root.Q<VisualElement>("GameWinContainer");
 
         _dropdownButton.clicked += ToggleNotepad;
         _mainMenuButton.clicked += MainMenuClicked;
         _restartButton.clicked += RestartClicked;
+        _mainMenuButton1.clicked += MainMenuClicked;
+        _restartButton1.clicked += RestartClicked;
 
         GameEvents.OnGameOver += ShowGameOver;
         GameEvents.OnGameWin += ShowGameWin;
@@ -51,6 +57,7 @@ public class HUDEvents : MonoBehaviour
 
     void ShowGameOver()
     {
+        Debug.Log("Game OVER");
         _gameOverMenu.AddToClassList(GameOverClass);
     }
 
