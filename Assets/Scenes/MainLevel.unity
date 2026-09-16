@@ -46048,7 +46048,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2460956475473226494, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
       propertyPath: m_Constraints
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2460956475473226494, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
       propertyPath: m_IsKinematic
@@ -46168,7 +46168,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4472505469596710646, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4472505469596710646, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
       propertyPath: m_Center.y
