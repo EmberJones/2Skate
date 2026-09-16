@@ -13261,7 +13261,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &224150389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14798,6 +14798,7 @@ GameObject:
   - component: {fileID: 250464710}
   - component: {fileID: 250464709}
   - component: {fileID: 250464708}
+  - component: {fileID: 250464712}
   m_Layer: 3
   m_Name: floor
   m_TagString: Untagged
@@ -14899,6 +14900,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1997286469}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &250464712
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250464707}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 2.220446e-16, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &250637368
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26555,7 +26577,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &587361927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45978,7 +46000,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1681909168030228821, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.10694933
+      value: -0.207
       objectReference: {fileID: 0}
     - target: {fileID: 1681909168030228821, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
       propertyPath: m_LocalPosition.z
