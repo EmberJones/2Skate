@@ -81,6 +81,7 @@ public class MainMenuEvents : MonoBehaviour
     {
         Debug.Log("Start Game Button Pressed");
         SceneManager.LoadScene("MainLevel");
+        Time.timeScale = 1.0f;
     }
 
     private void OnSettingsClick(ClickEvent evt)
