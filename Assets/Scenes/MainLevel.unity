@@ -46048,7 +46048,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2460956475473226494, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
       propertyPath: m_Constraints
-      value: 0
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2460956475473226494, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
+      propertyPath: m_Interpolate
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2460956475473226494, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
       propertyPath: m_IsKinematic
@@ -46056,7 +46060,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2460956475473226494, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
       propertyPath: m_CollisionDetection
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2480518906770704903, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
       propertyPath: m_Size.x
