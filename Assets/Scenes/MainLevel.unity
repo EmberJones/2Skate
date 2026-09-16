@@ -46026,10 +46026,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2460956475473226494, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
       propertyPath: m_Constraints
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2460956475473226494, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
       propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2460956475473226494, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
+      propertyPath: m_CollisionDetection
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2480518906770704903, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
@@ -46142,7 +46146,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4472505469596710646, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4472505469596710646, guid: 4b1b93135323a2546a8fbd7847f96ba9, type: 3}
       propertyPath: m_Center.y
@@ -79161,7 +79165,8 @@ PrefabInstance:
     - target: {fileID: 184680511659786950, guid: fb6591e7631983c4fb815918ee92eafa, type: 3}
       propertyPath: m_text
       value: Your key objective items are highlighted and us your objective list
-        in the top left to track your progress. Good luck!
+        in the top left to track your progress.  G to drop Items Except food. Thats
+        gross...Good luck!
       objectReference: {fileID: 0}
     - target: {fileID: 184680511659786950, guid: fb6591e7631983c4fb815918ee92eafa, type: 3}
       propertyPath: m_fontSize
