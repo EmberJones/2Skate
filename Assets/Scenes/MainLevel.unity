@@ -17506,7 +17506,6 @@ MonoBehaviour:
   - {fileID: 1217152882}
   - {fileID: 1308667972}
   - {fileID: 1355536273}
-  - {fileID: 1456524890}
   - {fileID: 2012097676}
   - {fileID: 748046462}
   - {fileID: 1244239494}
@@ -73228,17 +73227,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1132566095243630637, guid: b1255336462c1524e894e9e3f11501f9, type: 3}
   m_PrefabInstance: {fileID: 1456524888}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1456524890 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5255039314734504746, guid: b1255336462c1524e894e9e3f11501f9, type: 3}
-  m_PrefabInstance: {fileID: 1456524888}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1456524889}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a2711a09539b8142a76ffdcdb526ca8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Table
 --- !u!114 &1456779989
 MonoBehaviour:
   m_ObjectHideFlags: 0
