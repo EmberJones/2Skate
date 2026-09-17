@@ -7,7 +7,7 @@ using System.IO;
 
 public class DialogueLoader : MonoBehaviour
 {
-    public List<BaseDialogueData> dialogues;
+    /*public List<BaseDialogueData> dialogues;
 
     void Awake()
     {
@@ -21,6 +21,26 @@ public class DialogueLoader : MonoBehaviour
 
         dialogues = new List<BaseDialogueData>(JsonUtility.FromJson<DialogueListWrapper>(json).dialogues);  // Using the wrapper and the built in -
                                                                                                             // - JsonUtility to create the list containing the class (BaseDialogueData)
+    }*/
+
+    public List<BaseDialogueData> dialogues;
+
+    void Awake()
+    {
+        LoadDialogue();
+    }
+
+    void LoadDialogue()
+    {
+        TextAsset jsonFile = Resources.Load<TextAsset>("dialogue"); // no extension, no path
+
+        if (jsonFile == null)
+        {
+            Debug.LogError("DialogueLoader: dialogue.json not found in Resources folder.");
+            return;
+        }
+
+        dialogues = new List<BaseDialogueData>(JsonUtility.FromJson<DialogueListWrapper>(jsonFile.text).dialogues);
     }
 }
 
