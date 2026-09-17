@@ -79425,9 +79425,57 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 184680511659786950, guid: fb6591e7631983c4fb815918ee92eafa, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 3d57d9fed0de6a444b079cdf3d15e2b7, type: 2}
+    - target: {fileID: 184680511659786950, guid: fb6591e7631983c4fb815918ee92eafa, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -4231514743371885777, guid: 3d57d9fed0de6a444b079cdf3d15e2b7, type: 2}
+    - target: {fileID: 184680511659786950, guid: fb6591e7631983c4fb815918ee92eafa, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 259697124365971979, guid: fb6591e7631983c4fb815918ee92eafa, type: 3}
       propertyPath: m_Name
       value: Controls Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 2207891848267407423, guid: fb6591e7631983c4fb815918ee92eafa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: -4231514743371885777, guid: 3d57d9fed0de6a444b079cdf3d15e2b7, type: 2}
+    - target: {fileID: 4347404285614770511, guid: fb6591e7631983c4fb815918ee92eafa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: -4231514743371885777, guid: 3d57d9fed0de6a444b079cdf3d15e2b7, type: 2}
+    - target: {fileID: 7363454144330147823, guid: fb6591e7631983c4fb815918ee92eafa, type: 3}
+      propertyPath: m_text
+      value: "[W]\n[A] [S] [D] \n\nLeft Foot controls"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7363454144330147823, guid: fb6591e7631983c4fb815918ee92eafa, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 3d57d9fed0de6a444b079cdf3d15e2b7, type: 2}
+    - target: {fileID: 7363454144330147823, guid: fb6591e7631983c4fb815918ee92eafa, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -4231514743371885777, guid: 3d57d9fed0de6a444b079cdf3d15e2b7, type: 2}
+    - target: {fileID: 7363454144330147823, guid: fb6591e7631983c4fb815918ee92eafa, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8287011360669782351, guid: fb6591e7631983c4fb815918ee92eafa, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 3d57d9fed0de6a444b079cdf3d15e2b7, type: 2}
+    - target: {fileID: 8287011360669782351, guid: fb6591e7631983c4fb815918ee92eafa, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -4231514743371885777, guid: 3d57d9fed0de6a444b079cdf3d15e2b7, type: 2}
+    - target: {fileID: 8287011360669782351, guid: fb6591e7631983c4fb815918ee92eafa, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8838805108564535714, guid: fb6591e7631983c4fb815918ee92eafa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -79469,6 +79517,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8904477899027923458, guid: fb6591e7631983c4fb815918ee92eafa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: -4231514743371885777, guid: 3d57d9fed0de6a444b079cdf3d15e2b7, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
