@@ -15,7 +15,7 @@ public class Timer : MonoBehaviour
 
     IEnumerator Countdown()
     {
-        while (time <= 600)
+        while (time <= 720)
         {
             //Debug.Log("In Countdown");
             ui.UpdateTimer(time);

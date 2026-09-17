@@ -26,12 +26,6 @@ public class SettingsEvents : MonoBehaviour
     private AudioSource audioSource;
 
 
-    private void Awake()
-    {
-        
-
-    }
-
     private void Start()
     {
         volumeSlider = document.rootVisualElement.Q<Slider>("VolumeSlider");

@@ -27,6 +27,9 @@ public class LevelIntroSequencer : MonoBehaviour
     public float moveSpeed = 5f;
     public float rotationSpeed = 5f;
 
+    [Header("Audio")]
+    public AudioSource introAudioSource;
+
     //[Header("UI")]
     //public GameObject dialogueUI;
 
@@ -54,11 +57,21 @@ public class LevelIntroSequencer : MonoBehaviour
         playerCamera.SetActive(false);
         cutsceneCamera.SetActive(true);
 
+         Debug.Log("AudioManager.Instance is null? " + (AudioManager.Instance == null));
+
         //if (playerController != null) playerController.enabled = false;
+        if (introAudioSource != null)
+        {
+            Debug.Log("Play Audio");
+            introAudioSource.Play();
+        }
+            
 
         // Fire dialogue immediately, camera moves at the same time
         if (sceneDialogueTrigger != null)
             sceneDialogueTrigger.TriggerDialogue();
+
+        
 
         StartCoroutine(RunIntroSequence());
     }
@@ -112,7 +125,13 @@ public class LevelIntroSequencer : MonoBehaviour
 
         //Cursor.lockState = CursorLockMode.Locked;
         //Cursor.visible = false;
+
+        if (introAudioSource != null)
+            introAudioSource.Stop();
+
         timer.StartTimer();
+
+        
 
         Debug.Log("Intro done, player has control");
 
