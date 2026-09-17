@@ -12,6 +12,7 @@ public class DialogueManager : MonoBehaviour
     public GameObject timerUI;
     public GameObject escapeUI;
     //public GameObject newUI;
+    public GameObject timerEndUI;
 
     public UIKeyImputs Inputs; //Yes i spelled it wrong ;(
 
@@ -70,6 +71,7 @@ public class DialogueManager : MonoBehaviour
 
         timerUI.SetActive(true);
         escapeUI.SetActive(true);
+        timerEndUI.SetActive(true);
 
         //newUI.SetActive(true);
 

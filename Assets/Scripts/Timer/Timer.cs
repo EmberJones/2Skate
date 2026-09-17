@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Timer : MonoBehaviour
 {
-    public int time = 300;
+    public int time = 360;
     public OldStyleUIManager ui;
     
     public void StartTimer()
@@ -15,12 +15,12 @@ public class Timer : MonoBehaviour
 
     IEnumerator Countdown()
     {
-        while (time >= 0)
+        while (time <= 600)
         {
-            Debug.Log("In Countdown");
+            //Debug.Log("In Countdown");
             ui.UpdateTimer(time);
-            time--;
-            yield return new WaitForSeconds(1f);
+            time++;
+            yield return new WaitForSeconds(2f);
         }
     }
 }

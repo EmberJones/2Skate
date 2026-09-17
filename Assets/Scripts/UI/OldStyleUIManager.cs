@@ -8,16 +8,16 @@ public class OldStyleUIManager : MonoBehaviour
     public bool red = true;
     public void UpdateTimer(int timer)
     {
-        if (timer <= 0)
+        if (timer >= 720)
         {
-            Debug.Log("0 Seconds");
-            this.timer.text = FormatTime(0);
+            //Debug.Log("0 Seconds");
+            this.timer.text = FormatTime(600);
             GameEvents.RaiseGameOver();
             Time.timeScale = 0f;
         }
         else
         {
-            if (timer <= 30)
+            if (timer >= 660)
             {
                 Debug.Log("Change Colours");
                 if (red)
@@ -43,6 +43,6 @@ public class OldStyleUIManager : MonoBehaviour
     {
         int minutes = totalSeconds / 60;
         int seconds = totalSeconds % 60;
-        return $"{minutes}:{seconds:D2}";
+        return $"{minutes}:{seconds:D2} pm";
     }
 }
