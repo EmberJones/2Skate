@@ -64,13 +64,15 @@
     justify-content: center;
     position: relative;
     opacity: 1;
-    translate: 0 1300px;
+    translate: 0 0;
+    top: 300%;
 }
 
 .GameOver {
-    translate: 0 600px;
+    translate: 0 0;
     scale: 1.1 1.1;
     color: rgb(201, 36, 36);
+    top: 150%;
 }
 
 .GameNotWon {
@@ -81,10 +83,12 @@
     align-items: center;
     align-content: flex-start;
     justify-content: center;
-    translate: 0 -300px;
+    translate: 0 0;
+    top: -400px;
 }
 
 .GameWon {
     scale: 1.1 1.1;
     translate: 0 400px;
+    top: -5%;
 }
