@@ -49,7 +49,7 @@ public class HUDEvents : MonoBehaviour
         GameEvents.OnGameWin += ShowGameWin;
     }
 
-    void ToggleNotepad()
+    public void ToggleNotepad()
     {
         // First press removes noteClosed (opens), second press adds it back (closes), etc.
         _notepad.ToggleInClassList(ClosedClass);

@@ -10,7 +10,10 @@ public class DialogueManager : MonoBehaviour
     public Action onDialogueEnd;
 
     public GameObject timerUI;
+    public GameObject escapeUI;
     //public GameObject newUI;
+
+    public UIKeyImputs Inputs; //Yes i spelled it wrong ;(
 
     void Awake()
     {
@@ -53,6 +56,7 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
+        Inputs.active = false;
 
         if (dialogueUI != null) dialogueUI.SetActive(false);
 
@@ -65,6 +69,7 @@ public class DialogueManager : MonoBehaviour
         snapshot?.Invoke();
 
         timerUI.SetActive(true);
+        escapeUI.SetActive(true);
 
         //newUI.SetActive(true);
 
