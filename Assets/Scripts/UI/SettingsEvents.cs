@@ -103,11 +103,26 @@ public class SettingsEvents : MonoBehaviour
 
     private void InitDisplayResolutions()
     {
+        // displayResolution = document.rootVisualElement.Q<DropdownField>("ResolutionDropdown");
+        //displayResolution.choices = Screen.resolutions.Select(resolution => $"{resolution.width}x{resolution.height}").ToList();
+        // displayResolution.index = Screen.resolutions
+        //  .Select((resolution, index) => (resolution, index))
+        // .First((value) => value.resolution.width == Screen.currentResolution.width && value.resolution.height == Screen.currentResolution.height).index;
+
         displayResolution = document.rootVisualElement.Q<DropdownField>("ResolutionDropdown");
+
+#if UNITY_WEBGL && !UNITY_EDITOR
+    displayResolution.style.display = DisplayStyle.None; // hide, resolution switching doesn't make sense in-browser
+    return;
+#else
         displayResolution.choices = Screen.resolutions.Select(resolution => $"{resolution.width}x{resolution.height}").ToList();
-        displayResolution.index = Screen.resolutions
+        var indexed = Screen.resolutions
             .Select((resolution, index) => (resolution, index))
-            .First((value) => value.resolution.width == Screen.currentResolution.width && value.resolution.height == Screen.currentResolution.height).index;
+            .FirstOrDefault(value =>
+                value.resolution.width == Screen.currentResolution.width &&
+                value.resolution.height == Screen.currentResolution.height);
+        displayResolution.index = indexed.resolution.width != 0 ? indexed.index : 0;
+#endif
     }
 
     private void InitQualitySettings()
