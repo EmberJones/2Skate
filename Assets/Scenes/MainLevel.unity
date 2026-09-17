@@ -5782,6 +5782,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7207987890437797108, guid: 30eac6d3882fb9547a7a957d12448edb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00627
+      objectReference: {fileID: 0}
     - target: {fileID: 7296625853831799739, guid: 30eac6d3882fb9547a7a957d12448edb, type: 3}
       propertyPath: LightsModule.enabled
       value: 0
@@ -17179,7 +17183,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TableManager
   tables:
-  - {fileID: 0}
   - {fileID: 17297832}
   - {fileID: 877144800}
   - {fileID: 1807831536}

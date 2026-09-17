@@ -11,6 +11,7 @@ public class OldStyleUIManager : MonoBehaviour
         if (timer <= 0)
         {
             Debug.Log("0 Seconds");
+            this.timer.text = FormatTime(0);
             GameEvents.RaiseGameOver();
             Time.timeScale = 0f;
         }
@@ -22,23 +23,26 @@ public class OldStyleUIManager : MonoBehaviour
                 if (red)
                 {
                     this.timer.color = Color.red;
-                    this.timer.text = Convert.ToString(timer);
+                    //this.timer.text = FormatTime(0)
                     red = false;
                 }
                 else
                 {
                     this.timer.color = Color.white;
-                    this.timer.text = Convert.ToString(timer);
+                    //this.timer.text = Convert.ToString(timer);
                     red = true;
                 }
             }
 
-            else { this.timer.text = Convert.ToString(timer); }
+            this.timer.text = FormatTime(timer);
             Debug.Log("Couting Down");
 
-
         }
-
-        
+    }
+    private string FormatTime(int totalSeconds)
+    {
+        int minutes = totalSeconds / 60;
+        int seconds = totalSeconds % 60;
+        return $"{minutes}:{seconds:D2}";
     }
 }
