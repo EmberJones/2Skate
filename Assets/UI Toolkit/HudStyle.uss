@@ -12,6 +12,7 @@
     border-right-color: rgb(89, 89, 89);
     border-top-color: rgb(89, 89, 89);
     border-bottom-color: rgb(89, 89, 89);
+    -unity-font-definition: url("project://database/Assets/Fonts/sorean/Sorean%20Bold.otf?fileID=12800000&guid=f2495d34ec526b947bb35dc227aa8087&type=3#Sorean Bold");
 }
 
 .noteOpen {
@@ -46,7 +47,7 @@
     -unity-text-align: upper-center;
     font-size: 80px;
     -unity-font-style: bold;
-    -unity-font-definition: url("project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=fa0aaae680136ef41b02433a7bd1de88&type=3#NotInter-Regular");
+    -unity-font-definition: url("project://database/Assets/Fonts/sorean/Sorean%20Bold.otf?fileID=12800000&guid=f2495d34ec526b947bb35dc227aa8087&type=3#Sorean Bold");
     border-right-width: 20px;
     border-left-width: 20px;
     text-shadow: 5px 5px 0 rgb(0, 0, 0);
